@@ -34,6 +34,20 @@ class Lesson01BasicsTest extends UnitSpec {
     }
   }
 
+  it can "be lazy in which case its initialization is deferred until it is accessed for the first time" in {
+    val expected = ()
+    var actual = "" // Var will be explained later soon
+    lazy val lazyVal = scala.io.Source.fromFile("THIS_FILE_DOES_NOT_EXIST").mkString // File operations are explained later. For now, mkString reads content of a file into a string.
+    try { // try/catch/finally will be explained later. For now, they are similar as in Java.
+      actual = lazyVal // There was no need to put lazyVal declaration in try block because it is initialized here where it is accessed for the first time
+    } catch {
+      case _: Exception => actual = "There was an exception"
+    }
+    assertResult(expected) {
+      actual
+    }
+  }
+
   "Multiple values" can "be declared together" in {
     val expected = ()
     val myValue1, myValue2 = 42 // Both values have the same content 42
