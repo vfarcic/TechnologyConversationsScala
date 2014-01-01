@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Added lesson: Functions">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson04ArraysTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson04ArraysTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson03FunctionsTest.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson03FunctionsTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsTest.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsTest.scala" />
+    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -877,7 +873,11 @@
       <created>1388524233557</created>
       <updated>1388524233557</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added lesson Arrays">
+      <created>1388536290012</created>
+      <updated>1388536290012</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -948,7 +948,8 @@
     <MESSAGE value="Added lesson: Control Structures&#10;Added answers" />
     <MESSAGE value="Added lesson: Functions" />
     <MESSAGE value="Added lazy val to the lesson Basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lazy val to the lesson Basics" />
+    <MESSAGE value="Added lesson Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lesson Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
