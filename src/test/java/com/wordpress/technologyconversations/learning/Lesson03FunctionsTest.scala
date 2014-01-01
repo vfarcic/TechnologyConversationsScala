@@ -4,7 +4,7 @@ import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
 class Lesson03FunctionsTest extends UnitSpec {
 
-  "function" should "specify types of all parameters" in {
+  "Function" should "specify types of all parameters" in {
     val expected = ()
     def addNumbers(num1: Int, num2: Int) = num1 + num2 // This function specifies types of both parameters num1 and num2 as Int
     val sum = addNumbers(5, 4)
