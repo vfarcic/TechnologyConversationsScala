@@ -2,7 +2,7 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
-class Lesson03FunctionsTest extends UnitSpec {
+class Lesson03FunctionsAndExceptionsTest extends UnitSpec {
 
   "Function" should "specify types of all parameters" in {
     val expected = 9
@@ -15,7 +15,7 @@ class Lesson03FunctionsTest extends UnitSpec {
 
   it should "determine the return type from the expression to the right of the = symbol" in {
     val expected = "54"
-    def addStrings(string1: String, string2: String) = string1 + string2 // There is no return type
+    def addStrings(string1: String, string2: String) = string1 + string2 // Return type is not specified
     assertResult(expected) {
       addStrings("5", "4")
     }
@@ -50,11 +50,11 @@ class Lesson03FunctionsTest extends UnitSpec {
                      question: String = "How are you?",
                      response: String = "I'm all well.") = salute + " " + question + " " + response
     assertResult(expected) {
-      conversation("Hello!", "Are you OK?") // sentences is call with only first 2 arguments
+      conversation("Hello!", "Are you OK?") // It is called with only first 2 arguments
     }
   }
 
-  it can "can be called with parameter names" in {
+  it can "be called with parameter names" in {
     val expected = "Hello! How are you? I'm much better."
     def conversation(salute: String,
                      question: String = "How are you?",
@@ -89,19 +89,19 @@ class Lesson03FunctionsTest extends UnitSpec {
   it can "be called with range converted to sequence" in {
     val expected = 15
     def sum(numbers: Int*) = { // Variable number of arguments is set with *
-    var result = 0
+      var result = 0
       for(number <- numbers) result += number
       result
     }
     assertResult(expected) {
-      sum(1 to 5: _*) // Range 1 to have is converted to sequence using _*
+      sum(1 to 5: _*) // Range 1 to 5 is converted to sequence using _*
     }
   }
 
-  "procedure" should "be a function that returns type Unit (no value)" in {
+  "Procedure" should "be a function that returns type Unit (no value)" in {
     val expected = ()
     def sum(numbers: Int*) { // = symbol was omitted
-    var result = 0
+      var result = 0
       for(number <- numbers) result += number
       result
     }
@@ -110,7 +110,7 @@ class Lesson03FunctionsTest extends UnitSpec {
     }
   }
 
-  it should "can specify explicit Unit as return type" in {
+  it can "specify explicit Unit as return type" in {
     val expected = ()
     def sum(numbers: Int*): Unit = { // Using Unit as return type
     var result = 0
@@ -122,14 +122,17 @@ class Lesson03FunctionsTest extends UnitSpec {
     }
   }
 
-  "exception" should "is modeled after try/catch pattern matching syntax. Only runtime exceptions exist." in {
+  "exception" should "be modelled after try/catch pattern matching syntax. Only runtime exceptions exist." in {
     val expected = "Not found (more specific exception)"
     var words = ""
     try {
-      words = scala.io.Source.fromFile("THIS_FILE_DOES_NOT_EXIST").mkString // File operations are explained later. For now, mkString reads content of a file into a string.
+      // File operations are explained later. For now, mkString reads content of a file into a string.
+      words = scala.io.Source.fromFile("THIS_FILE_DOES_NOT_EXIST").mkString
     } catch {
-      case ex: java.io.FileNotFoundException => words = "Not found (more specific exception)" // More specific should be used before more general exception type
-      case _: Exception => words = "Not found (more general exception)" // _ can be used for variable name if it is not needed
+      // More specific should be used before more general exception type
+      case ex: java.io.FileNotFoundException => words = "Not found (more specific exception)"
+      // _ can be used for variable name if it is not needed
+      case _: Exception => words = "Not found (more general exception)"
     }
     assertResult(expected) {
       words

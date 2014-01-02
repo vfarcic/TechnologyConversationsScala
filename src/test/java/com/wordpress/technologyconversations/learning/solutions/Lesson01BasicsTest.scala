@@ -89,8 +89,8 @@ class Lesson01BasicsTest extends UnitSpec {
   }
 
   "Arithmetic operators" should "work in the same was as in Java or C++" in {
-    val expected = 20
-    val myValue = (1 + 3) * 5
+    val expected = 2
+    val myValue = (1 + 3) * 5 % 3
     assertResult(expected) {
       myValue
     }

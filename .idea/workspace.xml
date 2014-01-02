@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson07ObjectsTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala" />
+    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Added lesson Objects&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/FizzBuzz.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/FizzBuzz.scala" />
+      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\Lesson01BasicsTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\Lesson02ControlStructuresTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\Lesson03FunctionsTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\Lesson04ArraysTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\Lesson05MapsTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\Lesson06ClassesTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\Lesson07ObjectsTest.scala" afterPath="" />
+      <change type="MOVED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\solutions\Lesson03FunctionsTest.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsAndExceptionsTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -67,7 +77,26 @@
     <favorites_list name="TechnologyConversationsScala" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="FizzBuzz.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/FizzBuzz.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="0.2642487" vertical-offset="0" max-vertical-offset="1037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FizzBuzz.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/FizzBuzz.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -99,10 +128,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson02ControlStructuresTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/specs/Lesson03Functions.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/wordpress/technologyconversations/learning/Lesson03Functions.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson03FunctionsTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/xxx.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson04ArraysTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson04ArraysTest.scala" />
@@ -113,9 +139,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/wordpress/technologyconversations/learning/Lesson06Classes.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson06ClassesTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson07ObjectsTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/FizzBuzz.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsAndExceptionsTest.scala" />
       </list>
     </option>
   </component>
@@ -344,7 +375,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson07ObjectsTest.scala" />
+              <option name="myItemId" value="FizzBuzz.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,8 +431,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="specs" />
+              <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FizzBuzz.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -437,76 +502,77 @@
       <recent name="com.wordpress.technologyconversations.helloworld" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\solutions" />
       <recent name="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wordpress.technologyconversations.learning" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.Lesson07ObjectsTest">
-    <configuration default="false" name="Lesson05MapsTest." type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson05MapsTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Lesson05MapsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.Lesson05MapsTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Lesson06ClassesTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson06ClassesTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Lesson06ClassesTest (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.Lesson06ClassesTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.Lesson03FunctionsTest">
     <configuration default="false" name="Lesson07ObjectsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
       <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson07ObjectsTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lesson01BasicsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.Lesson01BasicsTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.FizzBuzzTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lesson01BasicsTest." type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson01BasicsTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lesson03FunctionsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson03FunctionsTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -673,19 +739,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Lesson05MapsTest." />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Lesson05MapsTest" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Lesson06ClassesTest" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson06ClassesTest (1)" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Lesson07ObjectsTest" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Lesson07ObjectsTest" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Lesson01BasicsTest" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.FizzBuzzTest" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson01BasicsTest." />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Lesson03FunctionsTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Lesson07ObjectsTest" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Lesson06ClassesTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Lesson06ClassesTest" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson05MapsTest" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Lesson05MapsTest." />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Lesson03FunctionsTest" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Lesson01BasicsTest." />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.FizzBuzzTest" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson01BasicsTest" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Lesson07ObjectsTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -765,7 +831,11 @@
       <created>1388656376971</created>
       <updated>1388656376971</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added lesson Objects&#10;">
+      <created>1388676541981</created>
+      <updated>1388676541981</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -790,7 +860,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -808,7 +878,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31646526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31646526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,7 +910,8 @@
     <MESSAGE value="Added lesson Arrays&#10;" />
     <MESSAGE value="Added lesson Maps&#10;" />
     <MESSAGE value="Added lesson Classes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lesson Classes&#10;" />
+    <MESSAGE value="Added lesson Objects&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lesson Objects&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -850,34 +921,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="75" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0" vertical-offset="953" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="75" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="75" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0" vertical-offset="953" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="7" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar!/org/scalatest/FlatSpec.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="14" selection-start="59" selection-end="59" vertical-scroll-proportion="0.060390763" vertical-offset="0" max-vertical-offset="563" />
@@ -926,37 +969,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson02ControlStructuresTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="172" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar!/org/scalatest/Assertions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="6048" selection-end="6048" vertical-scroll-proportion="0.90229887" vertical-offset="604" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.21565217" vertical-offset="539" max-vertical-offset="2941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson02ControlStructuresTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="60" selection-start="3747" selection-end="3747" vertical-scroll-proportion="0.37801608" vertical-offset="2171" max-vertical-offset="2754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson03FunctionsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="599" selection-end="599" vertical-scroll-proportion="0.37801608" vertical-offset="148" max-vertical-offset="2941">
           <folding />
         </state>
       </provider>
@@ -966,43 +981,11 @@
         <state line="289" column="6" selection-start="9780" selection-end="9780" vertical-scroll-proportion="0.7747989" vertical-offset="4454" max-vertical-offset="7497" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson04ArraysTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="68" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0880829" vertical-offset="0" max-vertical-offset="5372">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson04ArraysTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="0" selection-start="7252" selection-end="7252" vertical-scroll-proportion="1.2150259" vertical-offset="4767" max-vertical-offset="5355">
-          <folding>
-            <element signature="e#56#124#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson05MapsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="176" column="25" selection-start="4607" selection-end="4607" vertical-scroll-proportion="0.0" vertical-offset="2691" max-vertical-offset="3128">
           <folding>
-            <element signature="e#66#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="263" selection-end="263" vertical-scroll-proportion="0.41018766" vertical-offset="0" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson05MapsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="1" selection-start="4547" selection-end="4547" vertical-scroll-proportion="0.0" vertical-offset="2708" max-vertical-offset="3094">
-          <folding>
-            <element signature="e#56#124#0" expanded="true" />
+            <element signature="e#66#134#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1014,23 +997,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="31" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.9544236" vertical-offset="613" max-vertical-offset="3349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar!/scala/Array.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="11" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.35632184" vertical-offset="233" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.54423594" vertical-offset="477" max-vertical-offset="2448">
           <folding />
         </state>
       </provider>
@@ -1044,16 +1013,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson04ArraysTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="21" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.0" vertical-offset="715" max-vertical-offset="1241">
+        <state line="309" column="8" selection-start="7607" selection-end="7607" vertical-scroll-proportion="0.6476684" vertical-offset="4986" max-vertical-offset="5372">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson07ObjectsTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.22520107" vertical-offset="766" max-vertical-offset="1207">
+        <state line="5" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson02ControlStructuresTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="20" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.38040346" vertical-offset="1415" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsAndExceptionsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/FizzBuzz.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/FizzBuzz.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="0.2642487" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>

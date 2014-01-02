@@ -53,8 +53,8 @@ class Lesson07ObjectsTest extends UnitSpec {
     }
   }
 
-  // Add main and application object
-  // Add enumerations
+  // TODO Add main and application object
+  // TODO Add enumerations
 
 }
 
