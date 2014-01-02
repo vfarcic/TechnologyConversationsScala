@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Added lesson Classes&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson06ClassesTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TechnologyConversationsScala.iml" afterPath="$PROJECT_DIR$/TechnologyConversationsScala.iml" />
+    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -83,7 +80,7 @@
       <file leaf-file-name="Lesson06ClassesTest.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="31" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.6836461" vertical-offset="527" max-vertical-offset="3349">
+            <state line="46" column="83" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.4075067" vertical-offset="613" max-vertical-offset="3349">
               <folding />
             </state>
           </provider>
@@ -711,7 +708,11 @@
       <created>1388616801548</created>
       <updated>1388616801548</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added lesson Classes&#10;">
+      <created>1388656246389</created>
+      <updated>1388656246389</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -978,7 +979,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="31" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.6836461" vertical-offset="527" max-vertical-offset="3349">
+        <state line="46" column="83" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.4075067" vertical-offset="613" max-vertical-offset="3349">
           <folding />
         </state>
       </provider>
