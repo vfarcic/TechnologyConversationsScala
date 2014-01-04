@@ -1,4 +1,4 @@
-package com.wordpress.technologyconversations.learning
+package com.wordpress.technologyconversations.learning.kata
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.mutable.ArrayBuffer

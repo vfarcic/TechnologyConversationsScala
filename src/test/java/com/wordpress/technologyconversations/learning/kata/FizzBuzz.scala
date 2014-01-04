@@ -1,15 +1,10 @@
-package com.wordpress.technologyconversations.learning.solutions
+package com.wordpress.technologyconversations.learning.kata
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
 object FizzBuzz {
 
   def getResult(number: Int) = {
-    var result = ""
-    if (number % 3 == 0) result = "fizz"
-    if (number % 5 == 0) result += "buzz"
-    if (result == "") number
-    else result
   }
 
 }
