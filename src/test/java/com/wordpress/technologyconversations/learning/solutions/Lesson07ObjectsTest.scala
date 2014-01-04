@@ -19,8 +19,8 @@ class Lesson07ObjectsTest extends UnitSpec {
 
   it can "be companion to a class with the same name in which case both can access each others private features" in {
     val expected = 2
-    val person1 = new Person("John") // Person class is defined at the bottom of this source file
-    val person2 = new Person("Bob")
+    val person1 = new SomePerson("John") // Person class is defined at the bottom of this source file
+    val person2 = new SomePerson("Bob")
     person1.id
     assertResult(expected) {
       person2.id
@@ -47,7 +47,7 @@ class Lesson07ObjectsTest extends UnitSpec {
   it can "have apply method" in {
     val expected = "Eva"
     // Each Person object (defined at the bottom of this source file) is calling the apply method
-    val people = Array(Person("John"), Person("Bob"), Person("Eva"))
+    val people = Array(SomePerson("John"), SomePerson("Bob"), SomePerson("Eva"))
     assertResult(expected) {
       people(2).name
     }
@@ -58,11 +58,11 @@ class Lesson07ObjectsTest extends UnitSpec {
 
 }
 
-class Person(val name: String) {
-  val id = Person.uniqueId()
+class SomePerson(val name: String) {
+  val id = SomePerson.uniqueId()
 }
-object Person {
+object SomePerson {
   private var id = 0
   private def uniqueId() = { id += 1; id }
-  def apply(name: String) = {new Person(name)}
+  def apply(name: String) = {new SomePerson(name)}
 }

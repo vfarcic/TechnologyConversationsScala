@@ -70,7 +70,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have one element added" in {
+   it can "add one element" in {
      val expected = 42
      val buffer = ArrayBuffer[Int]()
      assertResult(0) {
@@ -83,7 +83,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have multiple elements added with +=" in {
+   it can "add multiple elements" in {
      val expected = 5
      val buffer = ArrayBuffer(3, 7)
      buffer += (35, 42, 3)
@@ -92,7 +92,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have collection append with ++=" in {
+   it can "append collection" in {
      val expected = 4
      val buffer = ArrayBuffer(3)
      buffer ++= Array(35, 42, 3)
@@ -101,7 +101,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have elements removed from the start with trimStart" in {
+   it can "remove elements from the start with trimStart" in {
      val expected = 42
      val buffer = ArrayBuffer(35, 42, 3)
      buffer.trimStart(1)
@@ -110,7 +110,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have elements removed from the end with trimEnd" in {
+   it can "remove elements from the end with trimEnd" in {
      val expected = 1
      val buffer = ArrayBuffer(35, 42, 3)
      buffer.trimEnd(2)
@@ -119,7 +119,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have elements specified at initialization" in {
+   it can "specify elements at initialization" in {
      val expected = 3
      val buffer = ArrayBuffer(33, 18, 21)
      assertResult(expected) {
@@ -127,7 +127,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have element inserted at specified location" in {
+   it can "insert an element at specified location" in {
      val expected = 31
      val buffer = ArrayBuffer(33, 18, 21)
      buffer.insert(2, 31) // First parameter specifies index where to insert element
@@ -136,7 +136,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have multiple elements inserted at specified location" in {
+   it can "insert multiple elements at specified location" in {
      val expected = 63
      val buffer = ArrayBuffer(33, 18, 21)
      buffer.insert(2, 61, 62, 63)
@@ -145,7 +145,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have element removed at specified location" in {
+   it can "remove an element at specified location" in {
      val expected = 21
      val buffer = ArrayBuffer(33, 18, 21)
      buffer.remove(1)
@@ -154,7 +154,7 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
-   it can "have multiple elements removed starting from specified location" in {
+   it can "remove multiple elements starting from specified location" in {
      val expected = 11
      val buffer = ArrayBuffer(33, 18, 21, 11)
      buffer.remove(1, 2) // Second parameter tells how many elements to remove
