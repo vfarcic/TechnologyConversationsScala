@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/Lesson10Files.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_data/Lesson10FilesLines.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson10Source.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson11RegEx.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson12Traits.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -70,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lesson11RegEx.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson11RegEx.scala">
+      <file leaf-file-name="Lesson12Traits.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson12Traits.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="31" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.772118" vertical-offset="545" max-vertical-offset="1020">
+            <state line="144" column="1" selection-start="5194" selection-end="5194" vertical-scroll-proportion="0.7797927" vertical-offset="2147" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
@@ -142,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson10Files.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson10Source.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson11RegEx.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson12Traits.scala" />
       </list>
     </option>
   </component>
@@ -238,6 +236,84 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.scalatest:scalatest_2.10:2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalatest_2.10-2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.scalatest:scalatest_2.10:2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalatest_2.10-2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalatest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.scalatest:scalatest_2.10:2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalatest_2.10-2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalatest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Matchers.class" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -383,6 +459,10 @@
               <option name="myItemId" value="learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="specs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -411,6 +491,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="solutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,22 +565,7 @@
       <recent name="com.wordpress.technologyconversations.learning" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.Lesson11RegEx.">
-    <configuration default="false" name="ScalaTests in 'learning'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="" />
-      <setting name="package" value="com.wordpress.technologyconversations.learning" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="All in package" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.Lesson12Traits">
     <configuration default="false" name="ScalaTests in 'solutions'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
       <module name="TechnologyConversationsScala" />
       <setting name="path" value="" />
@@ -523,6 +614,21 @@
     <configuration default="false" name="Lesson10Source" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
       <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson10Source" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lesson12Traits" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson12Traits" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -689,19 +795,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'learning'" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'solutions'" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Lesson10Files" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson11RegEx." />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Lesson10Source" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'solutions'" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Lesson10Files" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Lesson11RegEx." />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson10Source" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Lesson12Traits" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Lesson11RegEx." />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Lesson10Source" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Lesson10Files" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'solutions'" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'learning'" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Lesson12Traits" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Lesson11RegEx." />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Lesson10Source" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson10Files" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'solutions'" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -797,7 +903,11 @@
       <created>1388856684427</created>
       <updated>1388856684427</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added lesson RegEx">
+      <created>1388928188086</created>
+      <updated>1388928188086</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -876,7 +986,8 @@
     <MESSAGE value="Added FizzBuzz kata" />
     <MESSAGE value="Added Inheritance lesson&#10;Added PrimeFactors kata" />
     <MESSAGE value="Change kata package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change kata package" />
+    <MESSAGE value="Added lesson RegEx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lesson RegEx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -889,11 +1000,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar!/org/scalatest/FlatSpec.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="14" selection-start="59" selection-end="59" vertical-scroll-proportion="0.060390763" vertical-offset="0" max-vertical-offset="563" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar!/org/scalatest/Matchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="28" selection-end="28" vertical-scroll-proportion="0.048850574" vertical-offset="0" max-vertical-offset="6239" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -956,13 +1062,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="138" column="0" selection-start="3967" selection-end="3967" vertical-scroll-proportion="0.7265416" vertical-offset="2075" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/specs/UnitSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="54" selection-start="140" selection-end="140" vertical-scroll-proportion="0.18630137" vertical-offset="0" max-vertical-offset="365">
           <folding />
         </state>
       </provider>
@@ -1078,9 +1177,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar!/org/scalatest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="28" selection-end="28" vertical-scroll-proportion="0.048850574" vertical-offset="0" max-vertical-offset="6239">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/specs/UnitSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="49" selection-start="135" selection-end="135" vertical-scroll-proportion="0.1761658" vertical-offset="0" max-vertical-offset="386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson11RegEx.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.772118" vertical-offset="545" max-vertical-offset="1020">
+        <state line="50" column="18" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.81769437" vertical-offset="545" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson12Traits.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="1" selection-start="5194" selection-end="5194" vertical-scroll-proportion="0.7797927" vertical-offset="2147" max-vertical-offset="2550">
           <folding />
         </state>
       </provider>
