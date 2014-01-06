@@ -5,51 +5,35 @@ import scala.collection.mutable
 import scala.collection.immutable
 import java.util.NoSuchElementException
 
-class Lesson05MapsTest extends UnitSpec {
+class Lesson05MapsAndTuplesTest extends UnitSpec {
 
   "Map" must "be a collection of key value pairs" in {
-    val expected = 3
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3) // When it's only Map, it's immutable
-    assertResult(expected) {
-      ages.size
-    }
+    ages.size should be (3)
   }
 
   it must "be mutable it its content should change" in {
-    val expected = 2
     val ages = mutable.Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages -= "Victor" // -= Removes an element
-    assertResult(expected) {
-      ages.size
-    }
+    ages.size should be (2)
   }
 
   it must "have parameter types if it starts blank" in {
-    val expected = 0
     val myMap = new mutable.HashMap[String, Int] // HashMap
-    assertResult(expected) {
-      myMap.size
-    }
+    myMap.size should be (0)
   }
 
   it can "define pair using KEY -> VALUE or (KEY, VALUE)" in {
-    val expected = 3
     val ages = Map("Victor" -> 39, ("Jordi", 35), "Sara" -> 3)
-    assertResult(expected) {
-      ages.size
-    }
+    ages.size should be (3)
   }
 
   it can "values can be accessed using key" in {
-    val expected = 39
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
-    assertResult(expected) {
-      ages("Victor")
-    }
+    ages("Victor") should be (39)
   }
 
   it must "throw NoSuchElementException when non existing key is accessed" in {
-    val expected = -1
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     var michaelAge = 0
     try {
@@ -57,78 +41,54 @@ class Lesson05MapsTest extends UnitSpec {
     } catch {
       case _: NoSuchElementException => michaelAge = -1
     }
-    assertResult(expected) {
-      michaelAge
-    }
+    michaelAge should be (-1)
   }
 
   it can "check whether some key exist with contains" in {
-    val expected = 0
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     val michaelAge = if (ages.contains("Michael")) ages("Michael") else 0
-    assertResult(expected) {
-      michaelAge
-    }
+    michaelAge should be (0)
   }
 
   it can "use getOrElse to get value" in {
-    val expected = 0
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     val michaelAge = ages.getOrElse("Michael", 0)
-    assertResult(expected) {
-      michaelAge
-    }
+    michaelAge should be (0)
   }
 
   it can "update value" in {
-    val expected = 31
     val ages = mutable.Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages("Victor") = 31
-    assertResult(expected) {
-      ages("Victor")
-    }
+    ages("Victor") should be (31)
   }
 
   it can "add value if key does not exist" in {
-    val expected = 4
     val ages = mutable.Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages("Victor") = 31
     ages("Michael") = 99
-    assertResult(expected) {
-      ages.size
-    }
+    ages.size should be (4)
   }
 
   it can "add and update multiple associations with +=" in {
-    val expected = 4
     val ages = mutable.Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages += ("Victor" -> 31, "Michael" -> 99)
-    assertResult(expected) {
-      ages.size
-    }
+    ages.size should be (4)
   }
 
   it can "remove key with -=" in {
-    val expected = 2
     val ages = mutable.Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages -= "Jordi"
-    assertResult(expected) {
-      ages.size
-    }
+    ages.size should be (2)
   }
 
   it can "not be updated if it's immutable but a new one can be created" in {
-    val expected = 4
     var ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages = ages + ("Michael" -> 99, "Eva" -> 41)
     ages = ages - "Michael"
-      assertResult(expected) {
-      ages.size
-    }
+    ages.size should be (4)
   }
 
   it can "be iterated using for loop" in {
-    val expected = 77
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     var names = ""
     var totalAge = 0
@@ -136,44 +96,51 @@ class Lesson05MapsTest extends UnitSpec {
       totalAge += value
       names += key + " "
     }
-    assertResult(expected) {
-      totalAge
-    }
-    assertResult("Victor Jordi Sara ") {
-      names
-    }
+    totalAge should be (77)
+    names should be ("Victor Jordi Sara ")
   }
 
   it can "return keySet" in {
-    val expected = "Victor Jordi Sara "
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     var names = ""
     for (key <- ages.keySet) names += key + " "
-    assertResult(expected) {
-      names
-    }
+    names should be ("Victor Jordi Sara ")
   }
 
   it can "return values" in {
-    val expected = 77
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     var totalAge = 0
     for (age <- ages.values) totalAge += age
-    assertResult(expected) {
-      totalAge
-    }
+    totalAge should be (77)
   }
 
   it can "be sorted (only immutable)" in {
-    val expected = "Jordi Sara Victor "
     val ages = immutable.SortedMap("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     var names = ""
     for (key <- ages.keySet) names += key + " "
-    assertResult(expected) {
-      names
-    }
+    names should be ("Jordi Sara Victor ")
   }
 
-  // TODO Add tuple tests
+  "Tuple" can "be created by enclosing individual values in parentheses" in {
+    val person = ("John", "Rainy Street", "UK")
+    person.toString() should be ("(John,Rainy Street,UK)")
+  }
+
+  it can "access its elements with the methods _1, _2, _3, ... (positions start with 1)" in {
+    val person = ("John", "Rainy Street", "UK")
+    person._2 should be ("Rainy Street")
+  }
+
+  it can "use pattern matching to get tuple components" in {
+    val person = ("John", "Rainy Street", "UK")
+    val (name, street, country) = person
+    country should be ("UK")
+  }
+
+  it can "use _ for pattern matching when not all components are needed" in {
+    val person = ("John", "Rainy Street", "UK")
+    val (_, street, _) = person
+    street should be ("Rainy Street")
+  }
 
 }
