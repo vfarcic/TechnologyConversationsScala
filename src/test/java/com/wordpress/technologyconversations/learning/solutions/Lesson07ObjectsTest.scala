@@ -64,5 +64,5 @@ class SomePerson(val name: String) {
 object SomePerson {
   private var id = 0
   private def uniqueId() = { id += 1; id }
-  def apply(name: String) = {new SomePerson(name)}
+  def apply(name: String) = { new SomePerson(name) }
 }

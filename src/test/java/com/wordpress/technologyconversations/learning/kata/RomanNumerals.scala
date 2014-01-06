@@ -18,7 +18,7 @@ object RomanNumerals {
 // There is no need to go above 3000.
 // http://content.codersdojo.org/code-kata-catalogue/roman-numerals/
 // http://www.novaroma.org/via_romana/numbers.html
-class RomanNumeralsUnitTest extends UnitSpec {
+class RomanNumeralsTest extends UnitSpec {
 
   "Roman I" should "be equivalent to 1" in {
     RomanNumerals.romanToInt("I") should be (1)

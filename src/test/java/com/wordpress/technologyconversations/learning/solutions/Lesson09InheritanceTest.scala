@@ -2,7 +2,7 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
-class Lesson09Inheritance extends UnitSpec {
+class Lesson09InheritanceTest extends UnitSpec {
 
   "Class" can "extend another class" in {
     class Person {
@@ -62,7 +62,7 @@ class Lesson09Inheritance extends UnitSpec {
     assert(john.isInstanceOf[John])
     assert(john.isInstanceOf[Person])
     john.getClass should be (classOf[John])
-    john.getClass should not be (classOf[Person])
+    john.getClass should not be classOf[Person]
     // This does not compile since person does not have name field
     // john.asInstanceOf[Person].name
   }
@@ -176,7 +176,7 @@ class Lesson09Inheritance extends UnitSpec {
       final override def hashCode = 32 * name.hashCode + 17 * name.hashCode
     }
     new Person("John") should be (new Person("John"))
-    new Person("John") should not be (new Person("Bob"))
+    new Person("John") should not be new Person("Bob")
   }
 
 }

@@ -2,7 +2,7 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
-class Lesson11RegEx extends UnitSpec {
+class Lesson11RegExTest extends UnitSpec {
 
   "RegEx" can "be constructed with the r method of the string class" in {
     val pattern = "[0-9]+".r
