@@ -8,32 +8,33 @@ import java.util.NoSuchElementException
 class Lesson05MapsAndTuplesTest extends UnitSpec {
 
   "Map" must "be a collection of key value pairs" in {
-    val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3) // When it's only Map, it's immutable
+    // When it's only Map, it's immutable
+    val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages.size should be (3)
   }
 
-  it must "be mutable it its content should change" in {
+  it should "be mutable if its content should change" in {
     val ages = mutable.Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages -= "Victor" // -= Removes an element
     ages.size should be (2)
   }
 
-  it must "have parameter types if it starts blank" in {
+  it should "have parameter types if it starts blank" in {
     val myMap = new mutable.HashMap[String, Int] // HashMap
     myMap.size should be (0)
   }
 
-  it can "define pair using KEY -> VALUE or (KEY, VALUE)" in {
+  it should "define pairs using KEY -> VALUE or (KEY, VALUE)" in {
     val ages = Map("Victor" -> 39, ("Jordi", 35), "Sara" -> 3)
     ages.size should be (3)
   }
 
-  it can "values can be accessed using key" in {
+  it can "access values using key" in {
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     ages("Victor") should be (39)
   }
 
-  it must "throw NoSuchElementException when non existing key is accessed" in {
+  it should "throw NoSuchElementException when non existing key is accessed" in {
     val ages = Map("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     var michaelAge = 0
     try {
@@ -114,7 +115,7 @@ class Lesson05MapsAndTuplesTest extends UnitSpec {
     totalAge should be (77)
   }
 
-  it can "be sorted (only immutable)" in {
+  it can "be sorted if it's immutable" in {
     val ages = immutable.SortedMap("Victor" -> 39, "Jordi" -> 35, "Sara" -> 3)
     var names = ""
     for (key <- ages.keySet) names += key + " "
@@ -131,7 +132,7 @@ class Lesson05MapsAndTuplesTest extends UnitSpec {
     person._2 should be ("Rainy Street")
   }
 
-  it can "use pattern matching to get tuple components" in {
+  it can "use pattern matching to get its components" in {
     val person = ("John", "Rainy Street", "UK")
     val (name, street, country) = person
     country should be ("UK")
