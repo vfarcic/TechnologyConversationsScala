@@ -18,23 +18,19 @@ object BerlinClock {
     if (number % 2 == 0) "Y" else "O"
   }
 
-  def topHours(number: Int) = top(number, "R", 4)
+  def topHours(number: Int) = onOff(number, "R", 4, topNumberOfOnSigns(number))
 
-  def bottomHours(number: Int) = bottom(number, "R")
+  def bottomHours(number: Int) = onOff(number, "R", 4, number % 5)
 
-  def topMinutes(number: Int) = top(number, "Y", 11).replaceAll("YYY", "YYR")
+  def topMinutes(number: Int) = onOff(number, "Y", 11, topNumberOfOnSigns(number)).replaceAll("YYY", "YYR")
 
-  def bottomMinutes(number: Int) = bottom(number, "Y")
+  def bottomMinutes(number: Int) = onOff(number, "Y", 4, number % 5)
 
-  def bottom(number: Int, sign: String) = {
-    val numberOfSigns = number % 5
-    sign * numberOfSigns + "O" * (4 - numberOfSigns)
+  private def onOff(number: Int, onSign: String, lamps: Int, onSigns: Int) = {
+    onSign * onSigns + "O" * (lamps - onSigns)
   }
 
-  def top(number: Int, sign: String, lamps: Int) = {
-    val numberOfSigns = (number - (number % 5)) / 5
-    sign * numberOfSigns + "O" * (lamps - numberOfSigns)
-  }
+  private def topNumberOfOnSigns(number: Int) = (number - (number % 5)) / 5
 
 }
 
