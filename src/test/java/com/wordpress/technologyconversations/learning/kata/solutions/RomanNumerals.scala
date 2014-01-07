@@ -32,19 +32,22 @@ object RomanNumerals {
     result
   }
 
-  private def IntDigitToRoman(digit: Int, number: Int) = {
+  private def IntDigitToRoman(digit: Int, number: Int): String = {
     var result = ""
     if (number > 0) {
       // For 400, digit is 3 and number is 4. Multiplier is 100.
       val multiplier = (scala.math.pow(10, digit) / 10).toInt
-      for ((key, value) <- arabicNumbers if result == "") { // Iterate through all roman numbers
+      for ((key, value) <- arabicNumbers) { // Iterate through all roman numbers
         val keyDigit = key / multiplier
         // Number is one of roman numbers - 1
-        if (number == keyDigit - 1)
+        if (number == keyDigit - 1) {
           result = arabicNumbers(multiplier) + value
+          return result
         // Number is equal or greater than one of roman numbers
-        else if ((keyDigit == 1 && number <= keyDigit + 2) || (keyDigit == 5 && number <= keyDigit + 3))
+        } else if ((keyDigit == 1 && number <= keyDigit + 2) || (keyDigit == 5 && number <= keyDigit + 3)) {
           result = value + (arabicNumbers(multiplier) * (number - keyDigit))
+          return result
+        }
       }
     }
     result

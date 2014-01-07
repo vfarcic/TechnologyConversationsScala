@@ -7,12 +7,11 @@ object PrimeFactors {
 
   def result(number: Int, list: ArrayBuffer[Int] = ArrayBuffer[Int]()): Array[Int] = {
     if (number > 1) {
-      var found = false
-      for(n <- 2 to number if !found) {
+      for(n <- 2 to number) {
         if (number % n == 0) {
           list += n
-          found = true
           result(number / n, list)
+          return list.toArray
         }
       }
     }
