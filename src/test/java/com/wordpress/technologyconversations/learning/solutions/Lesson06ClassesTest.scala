@@ -11,7 +11,8 @@ class Lesson06ClassesTest extends UnitSpec {
   "Everything" can "be nested" in {
     val expected = 42
     class MyClass {
-      class MyNestedClass { // This class is nested within the MyClass
+      // This class is nested within the MyClass
+      class MyNestedClass {
         def myMethod = 42
       }
     }
@@ -48,25 +49,30 @@ class Lesson06ClassesTest extends UnitSpec {
     }
     val myFirstClass = new FirstClass
     assertResult(expected) {
-      myFirstClass.increaseValueBy5 // Called without parameters
+      // Call without parameters
+      myFirstClass.increaseValueBy5
     }
   }
 
   it must "be called without parenthesis if it is declared without them" in {
     val expected = "My name is FirstClass"
     class FirstClass {
-      def name = "My name is FirstClass" // Method was declared without parenthesis
+      // Method was declared without parenthesis
+      def name = "My name is FirstClass"
     }
     val myFirstClass = new FirstClass
     assertResult(expected) {
-      myFirstClass.name // Called without parameters
+      // Call without parameters
+      myFirstClass.name
     }
   }
 
   "Fields" must "be created for all public variables (equivalent to Java getter/setter)" in {
     val expected = "John"
     class Person {
-      var name = "" // This is equivalent to Java getter/setter. It is not named with getName and setName as in Java but serves the same purpose
+      // This is equivalent to Java getter/setter.
+      // It is not named with getName and setName as in Java but serves the same purpose
+      var name = ""
     }
     val person = new Person
     person.name = "John"
