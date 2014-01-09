@@ -7,12 +7,10 @@ object PrimeFactors {
 
   def result(number: Int, list: ArrayBuffer[Int] = ArrayBuffer[Int]()): Array[Int] = {
     if (number > 1) {
-      for(n <- 2 to number) {
-        if (number % n == 0) {
-          list += n
-          result(number / n, list)
-          return list.toArray
-        }
+      for(n <- 2 to number if (number % n == 0)) {
+        list += n
+        result(number / n, list)
+        return list.toArray
       }
     }
     list.toArray
@@ -25,7 +23,7 @@ object PrimeFactors {
 class PrimeFactorsTest extends UnitSpec {
 
   "Prime Factors" must "be Array() for 1" in {
-    PrimeFactors.result(1) should equal (Array[Int]())
+    PrimeFactors.result(1) should equal (Array())
   }
 
   "Prime Factors" must "be Array(2) for 2" in {
