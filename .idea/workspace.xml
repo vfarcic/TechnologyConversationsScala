@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Bowling Game kata refactor">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson15CollectionsTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/PrimeFactors.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/PrimeFactors.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/PrimeFactors.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/PrimeFactors.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/RomanNumerals.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/RomanNumerals.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -691,32 +687,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="package.class" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.scala-lang:scala-library:2.10.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala-library-2.10.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1432,7 +1402,11 @@
       <created>1389128694877</created>
       <updated>1389128694877</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Katas refactoring">
+      <created>1389396427632</created>
+      <updated>1389396427632</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1519,9 +1493,9 @@
     <MESSAGE value="Updated Maps lesson" />
     <MESSAGE value="Added BerlinClock kata" />
     <MESSAGE value="BerlinClock kata refactor&#10;" />
-    <MESSAGE value="Katas refactoring" />
     <MESSAGE value="Added Higher Order Functions lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Higher Order Functions lesson" />
+    <MESSAGE value="Katas refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Katas refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1656,12 +1630,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/specs/UnitSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="132" selection-end="140" vertical-scroll-proportion="0.1761658" vertical-offset="0" max-vertical-offset="386" />
+        <state line="4" column="49" selection-start="132" selection-end="140" vertical-scroll-proportion="0.1761658" vertical-offset="0" max-vertical-offset="386">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/specs/BddSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="101" selection-end="101" vertical-scroll-proportion="0.1761658" vertical-offset="0" max-vertical-offset="386" />
+        <state line="4" column="15" selection-start="101" selection-end="101" vertical-scroll-proportion="0.1761658" vertical-offset="0" max-vertical-offset="386">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson12TraitsTest.scala">
