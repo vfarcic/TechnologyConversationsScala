@@ -4,12 +4,19 @@ import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
 object FizzBuzz {
 
-  def getResult(number: Int) = {
-    var result = ""
-    if (number % 3 == 0) result = "fizz"
-    if (number % 5 == 0) result += "buzz"
-    if (result == "") number
-    else result
+//  def getResult(number: Int) = {
+//    var result = ""
+//    if (number % 3 == 0) result = "fizz"
+//    if (number % 5 == 0) result += "buzz"
+//    if (result == "") number.toString
+//    else result
+//  }
+
+  def getResult(number: Int): String = (number % 3, number % 5) match {
+    case (0 , 0) => "fizzbuzz"
+    case (0 , _) => "fizz"
+    case (_ , 0) => "buzz"
+    case  _      => number.toString()
   }
 
 }
@@ -22,39 +29,24 @@ object FizzBuzz {
 class FizzBuzzTest extends UnitSpec {
 
   "FizzBuzz" should "return fizz if the number is dividable by 3" in {
-    assertResult("fizz") {
-      FizzBuzz.getResult(3)
-    }
-    assertResult("fizz") {
-      FizzBuzz.getResult(6)
-    }
+    FizzBuzz.getResult(3) should be ("fizz")
+    FizzBuzz.getResult(6) should be ("fizz")
   }
 
   it should "return buzz if the number is dividable by 5" in {
-    assertResult("buzz") {
-      FizzBuzz.getResult(5)
-    }
-    assertResult("buzz") {
-      FizzBuzz.getResult(10)
-    }
+    FizzBuzz.getResult(5) should be ("buzz")
+    FizzBuzz.getResult(10) should be ("buzz")
   }
 
   it should "return fizzbuzz if the number is dividable by 15" in {
-    assertResult("fizzbuzz") {
-      FizzBuzz.getResult(15)
-    }
+    FizzBuzz.getResult(15) should be ("fizzbuzz")
+    FizzBuzz.getResult(30) should be ("fizzbuzz")
   }
 
   it should "return the same number if no other requirement is fulfilled" in {
-    assertResult(1) {
-      FizzBuzz.getResult(1)
-    }
-    assertResult(2) {
-      FizzBuzz.getResult(2)
-    }
-    assertResult(4) {
-      FizzBuzz.getResult(4)
-    }
+    FizzBuzz.getResult(1) should be ("1")
+    FizzBuzz.getResult(2) should be ("2")
+    FizzBuzz.getResult(4) should be ("4")
   }
 
 }

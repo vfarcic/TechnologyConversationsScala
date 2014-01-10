@@ -11,7 +11,8 @@ class Lesson06ClassesTest extends UnitSpec {
   "Everything" can "be nested" in {
     val expected = 42
     class MyClass {
-      class MyNestedClass { // This class is nested within the MyClass
+      // This class is nested within the MyClass
+      class MyNestedClass {
         def myMethod = 42
       }
     }
@@ -48,25 +49,30 @@ class Lesson06ClassesTest extends UnitSpec {
     }
     val myFirstClass = new FirstClass
     assertResult(expected) {
-      myFirstClass.increaseValueBy5 // Called without parameters
+      // Call without parameters
+      myFirstClass.increaseValueBy5
     }
   }
 
   it must "be called without parenthesis if it is declared without them" in {
     val expected = "My name is FirstClass"
     class FirstClass {
-      def name = "My name is FirstClass" // Method was declared without parenthesis
+      // Method was declared without parenthesis
+      def name = "My name is FirstClass"
     }
     val myFirstClass = new FirstClass
     assertResult(expected) {
-      myFirstClass.name // Called without parameters
+      // Call without parameters
+      myFirstClass.name
     }
   }
 
   "Fields" must "be created for all public variables (equivalent to Java getter/setter)" in {
     val expected = "John"
     class Person {
-      var name = "" // This is equivalent to Java getter/setter. It is not named with getName and setName as in Java but serves the same purpose
+      // This is equivalent to Java getter/setter.
+      // It is not named with getName and setName as in Java but serves the same purpose
+      var name = ""
     }
     val person = new Person
     person.name = "John"
@@ -79,8 +85,10 @@ class Lesson06ClassesTest extends UnitSpec {
     val expected = "Barcelona"
     class Place {
       private var privateCity = ""
-      def city = privateCity // This is redefined getter
-      def city_=(newCity: String) { // This is redefined setter (using _)
+      // This is redefined getter
+      def city = privateCity
+      // This is redefined setter (using _)
+      def city_=(newCity: String) {
         if (newCity != "Madrid") privateCity = newCity
       }
     }
@@ -104,7 +112,7 @@ class Lesson06ClassesTest extends UnitSpec {
     }
   }
 
-  "val" must "have getter only if it is public" in {
+  "val" must "have only getter if it is public" in {
     val expected = "Spain"
     class Place {
       val country = "Spain"
@@ -117,17 +125,15 @@ class Lesson06ClassesTest extends UnitSpec {
     }
   }
 
-  "Class" must "have primary constructor that is part of class definition" in {
-    class Place(val city: String, val country: String) {
-    }
+  "Class" can "have primary constructor that is part of the class definition" in {
+    class Place(val city: String, val country: String) { }
     val place = new Place("Barcelona", "Spain")
     assert(place != null)
   }
 
   "Primary constructor" must "have parameters turned into fields" in {
     val expected = "Barcelona"
-    class Place(val city: String, val country: String) {
-    }
+    class Place(val city: String, val country: String) { }
     val place = new Place("Barcelona", "Spain")
     assertResult(expected) {
       place.city
@@ -138,7 +144,8 @@ class Lesson06ClassesTest extends UnitSpec {
     val expected = "Yes"
     class Place(val country: String) {
       private var sunny = "No"
-      if (country == "Spain") sunny = "Yes" // This is statement and is executed by primary constructor
+      // This is statement and is executed by primary constructor
+      if (country == "Spain") sunny = "Yes"
       def isAlwaysSunny = sunny
     }
     val place = new Place("Spain")
@@ -148,16 +155,14 @@ class Lesson06ClassesTest extends UnitSpec {
   }
 
   it can "be without parameters" in {
-    class ClassWithoutParams {
-    }
+    class ClassWithoutParams { }
     val classWithoutParams = new ClassWithoutParams
     assert(classWithoutParams != null)
   }
 
   it can "have parameters with default arguments, be private, etc (same rules as with fields)" in {
     val expected = "Europe"
-    class Place(val country: String, val continent: String = "Europe") {
-    }
+    class Place(val country: String, val continent: String = "Europe") { }
     val place = new Place("Spain")
     assertResult(expected) {
       place.continent
@@ -167,8 +172,10 @@ class Lesson06ClassesTest extends UnitSpec {
   "Auxiliary constructor" should "be declared with this and must start with the call to the primary constructoor" in {
     val expected = "Unknown"
     class Place(val city: String, val country: String) {
-      def this(city: String) {// this is auxiliary constructor
-        this(city, "Unknown") // Must start with the call to the primary constructor
+      // this is auxiliary constructor
+      def this(city: String) {
+        // Must start with the call to the primary constructor
+        this(city, "Unknown")
       }
     }
     val place = new Place("London")
@@ -180,10 +187,12 @@ class Lesson06ClassesTest extends UnitSpec {
   "Class" can "have multiple auxiliary constructors" in {
     val expected = "UK"
     class Place(val city: String, val country: String, val continent: String) {
-      def this(city: String) {// this is first auxiliary constructor
+      // this is the first auxiliary constructor
+      def this(city: String) {
         this(city, "Unknown", "Unknown")
       }
-      def this(city: String, country: String) {// this is second auxiliary constructor
+      // this is the second auxiliary constructor
+      def this(city: String, country: String) {
         this(city, country, "Unknown")
       }
     }
