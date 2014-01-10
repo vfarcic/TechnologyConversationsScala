@@ -10,7 +10,6 @@ object RomanNumerals {
   val arabicNumbers = romanNumbers.map(_.swap)
 
   def romanToInt(number: String) = {
-    var sum = 0
     val numbers = ArrayBuffer[Int]()
     for(digit <- number) {
       val arabicNumber = romanNumbers(digit.toString)
@@ -23,7 +22,7 @@ object RomanNumerals {
 
   def intToRoman(number: Int) = {
     // Convert number to a list in reverse order (from right-most digit to left-most digit)
-    val numbers = number.toString.map(_.asDigit).toList.reverse
+    val numbers = number.toString.map(_.asDigit).reverse
     var result = ""
     for (digit <- 1 to numbers.length) {
       // Get roman representation of each digit
