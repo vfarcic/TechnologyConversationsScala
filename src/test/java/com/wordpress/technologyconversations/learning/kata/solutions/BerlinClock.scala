@@ -2,6 +2,7 @@ package com.wordpress.technologyconversations.learning.kata.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
+// TODO Publish to TechnologyConversations
 object BerlinClock {
 
   def convertToBerlinTime(time: String) = {
