@@ -1,36 +1,20 @@
-package com.wordpress.technologyconversations.learning.kata.solutions
+package com.wordpress.technologyconversations.learning.kata
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
 object BerlinClock {
 
-  def convertToBerlinTime(time: String) = {
-    val parts = time.split(":").map(_.toInt)
-    Array(
-      seconds(parts(2)),
-      topHours(parts(0)),
-      bottomHours(parts(0)),
-      topMinutes(parts(1)),
-      bottomMinutes(parts(1)))
-  }
+  def convertToBerlinTime(time: String) = Array[String]()
 
-  def seconds(number: Int) = {
-    if (number % 2 == 0) "Y" else "O"
-  }
+  def seconds(number: Int) = ""
 
-  def topHours(number: Int) = onOff(4, topNumberOfOnSigns(number))
+  def topHours(number: Int) = ""
 
-  def bottomHours(number: Int) = onOff(4, number % 5)
+  def bottomHours(number: Int) = ""
 
-  def topMinutes(number: Int) = onOff(11, topNumberOfOnSigns(number), "Y").replaceAll("YYY", "YYR")
+  def topMinutes(number: Int) = ""
 
-  def bottomMinutes(number: Int) = onOff(4, number % 5, "Y")
-
-  private def onOff(lamps: Int, onSigns: Int, onSign: String = "R") = {
-    onSign * onSigns + "O" * (lamps - onSigns)
-  }
-
-  private def topNumberOfOnSigns(number: Int) = (number - (number % 5)) / 5
+  def bottomMinutes(number: Int) = ""
 
 }
 
