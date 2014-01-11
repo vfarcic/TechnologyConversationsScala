@@ -2,6 +2,7 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
+// TODO Publish
 class Lesson12TraitsTest extends UnitSpec {
 
   "Trait" can "have abstract methods (works like a Java interface)" in {

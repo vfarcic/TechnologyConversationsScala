@@ -4,6 +4,7 @@ import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable
 
+// TODO Publish
 class Lesson13OperatorsTest extends UnitSpec {
 
   "Identifier" can "use much broader set of characters for its name than it is allowed in Java" in {

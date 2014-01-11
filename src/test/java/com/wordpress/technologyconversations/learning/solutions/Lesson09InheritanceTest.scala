@@ -2,6 +2,7 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
+// TODO Publish
 class Lesson09InheritanceTest extends UnitSpec {
 
   "Class" can "extend another class" in {

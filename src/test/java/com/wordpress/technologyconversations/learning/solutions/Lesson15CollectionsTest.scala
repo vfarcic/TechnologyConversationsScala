@@ -2,6 +2,7 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
+// TODO Publish
 class Lesson15CollectionsTest extends UnitSpec {
 
   "All collections" should "extend iterable trait" in {

@@ -2,6 +2,7 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
+// TODO Publish
 class Lesson14HigherOrderFunctionsTest extends UnitSpec {
 
   "Function" can "be stored as variable" in {

@@ -32,7 +32,8 @@ class Lesson02ControlStructuresTest extends UnitSpec {
   it should "be used when multiple statements are on the same line" in {
     val expected = "bigger then 1"
     var myVariable = ""
-    if (2 > 1) { myVariable = "bigger"; myVariable += " then 1" } // There are two statement separated with semicolon
+    // There are two statements separated with semicolon
+    if (2 > 1) { myVariable = "bigger"; myVariable += " then 1" }
     assertResult(expected) {
       myVariable
     }

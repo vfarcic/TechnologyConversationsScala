@@ -3,6 +3,7 @@ package com.wordpress.technologyconversations.learning.solutions
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.io.Source
 
+// TODO Publish
 class Lesson10SourceTest extends UnitSpec {
 
   "scala.io.Source" can "be used to read all lines from a file (or other sources)" in {
