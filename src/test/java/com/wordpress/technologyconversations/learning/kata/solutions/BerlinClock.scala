@@ -19,15 +19,15 @@ object BerlinClock {
     if (number % 2 == 0) "Y" else "O"
   }
 
-  def topHours(number: Int) = onOff(number, "R", 4, topNumberOfOnSigns(number))
+  def topHours(number: Int) = onOff(4, topNumberOfOnSigns(number))
 
-  def bottomHours(number: Int) = onOff(number, "R", 4, number % 5)
+  def bottomHours(number: Int) = onOff(4, number % 5)
 
-  def topMinutes(number: Int) = onOff(number, "Y", 11, topNumberOfOnSigns(number)).replaceAll("YYY", "YYR")
+  def topMinutes(number: Int) = onOff(11, topNumberOfOnSigns(number), "Y").replaceAll("YYY", "YYR")
 
-  def bottomMinutes(number: Int) = onOff(number, "Y", 4, number % 5)
+  def bottomMinutes(number: Int) = onOff(4, number % 5, "Y")
 
-  private def onOff(number: Int, onSign: String, lamps: Int, onSigns: Int) = {
+  private def onOff(lamps: Int, onSigns: Int, onSign: String = "R") = {
     onSign * onSigns + "O" * (lamps - onSigns)
   }
 

@@ -307,6 +307,13 @@ class Lesson04ArraysTest extends UnitSpec {
      }
    }
 
+  it can "build a new collection by applying a function to all elements" in {
+    val numbersAsStrings = Array("1", "2", "3")
+    // Converts any element (_) to Int
+    val numbers = numbersAsStrings.map(_.toInt)
+    numbers.sum should be (6)
+  }
+
    // TODO Write tests for multidimensional arrays
 
  }
