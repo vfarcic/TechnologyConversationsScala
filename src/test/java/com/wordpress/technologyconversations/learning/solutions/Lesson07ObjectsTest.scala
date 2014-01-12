@@ -2,7 +2,6 @@ package com.wordpress.technologyconversations.learning.solutions
 
 import com.wordpress.technologyconversations.learning.specs.UnitSpec
 
-// TODO Publish
 class Lesson07ObjectsTest extends UnitSpec {
 
   "Object" should "define a single instance of a class (similar to Java singleton) without constructor parameters" in {
