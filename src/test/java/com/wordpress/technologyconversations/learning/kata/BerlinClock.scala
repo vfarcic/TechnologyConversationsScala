@@ -1,6 +1,7 @@
 package com.wordpress.technologyconversations.learning.kata
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
+
 
 object BerlinClock {
 
@@ -43,7 +44,7 @@ O = Off
 http://content.codersdojo.org/code-kata-catalogue/berlin-clock/
 */
 
-class BerlinClockTest extends UnitSpec {
+class BerlinClockTest extends FlatSpec with Matchers {
 
   "Yellow lamp" should "blink on/off every two seconds" in {
     BerlinClock.seconds(0) should be ("Y")

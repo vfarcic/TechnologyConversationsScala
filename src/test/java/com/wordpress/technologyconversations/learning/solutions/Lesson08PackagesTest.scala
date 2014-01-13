@@ -1,9 +1,10 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
+
 
 // TODO Publish
-class Lesson08PackagesTest extends UnitSpec {
+class Lesson08PackagesTest extends FlatSpec with Matchers {
 
   // Create tests
 

@@ -1,6 +1,6 @@
 package com.wordpress.technologyconversations.learning.kata.solutions
 
-import com.wordpress.technologyconversations.learning.specs.{BddSpec, UnitSpec}
+import org.scalatest.{FlatSpec, Matchers, GivenWhenThen, FeatureSpec}
 
 // TODO Publish
 class BowlingGame {
@@ -43,7 +43,7 @@ class BowlingGame {
 
 // Sum the scores of a bowling game of one player.
 // http://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring
-class BowlingGameScenarioTest extends BddSpec {
+class BowlingGameScenarioTest extends FeatureSpec with GivenWhenThen with Matchers {
 
   scenario("Bowling game") {
 
@@ -144,7 +144,7 @@ class BowlingGameScenarioTest extends BddSpec {
 
 }
 
-class BowlingGameUnitTest extends UnitSpec {
+class BowlingGameUnitTest extends FlatSpec with Matchers {
 
   "First roll" should "store pins as roll1 and () as roll2" in {
     val game = new BowlingGame

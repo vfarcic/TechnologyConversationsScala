@@ -1,12 +1,12 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.mutable
 import scala.collection.immutable
 import java.util.NoSuchElementException
 import scala.beans.BeanProperty
+import org.scalatest.{Matchers, FlatSpec}
 
-class Lesson06ClassesTest extends UnitSpec {
+class Lesson06ClassesTest extends FlatSpec with Matchers {
 
   "Everything" can "be nested" in {
     val expected = 42

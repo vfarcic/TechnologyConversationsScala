@@ -1,8 +1,9 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
 
-class Lesson02ControlStructuresTest extends UnitSpec {
+
+class Lesson02ControlStructuresTest extends FlatSpec with Matchers {
 
   "If/else construct" should "always have value of the last expression" in {
     val expected = "smaller"

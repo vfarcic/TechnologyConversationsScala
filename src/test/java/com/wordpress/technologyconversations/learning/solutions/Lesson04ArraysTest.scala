@@ -1,9 +1,9 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.mutable.ArrayBuffer
+import org.scalatest.{Matchers, FlatSpec}
 
-class Lesson04ArraysTest extends UnitSpec {
+class Lesson04ArraysTest extends FlatSpec with Matchers {
 
    "Array" should "be fixed length" in {
      val expected = 10

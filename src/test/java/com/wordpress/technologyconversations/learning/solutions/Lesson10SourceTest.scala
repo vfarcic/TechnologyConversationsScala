@@ -1,10 +1,10 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.io.Source
+import org.scalatest.{Matchers, FlatSpec}
 
 // TODO Publish
-class Lesson10SourceTest extends UnitSpec {
+class Lesson10SourceTest extends FlatSpec with Matchers {
 
   "scala.io.Source" can "be used to read all lines from a file (or other sources)" in {
     val source = Source.fromFile("test_data/Lesson10FilesLines.txt")

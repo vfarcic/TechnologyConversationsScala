@@ -1,6 +1,7 @@
 package com.wordpress.technologyconversations.learning.kata
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
+
 
 object FizzBuzz {
 
@@ -14,7 +15,7 @@ object FizzBuzz {
 // * "buzz" if the number is dividable by 5
 // * "fizzbuzz" if the number is dividable by 15
 // * the same number if no other requirement is fulfilled
-class FizzBuzzTest extends UnitSpec {
+class FizzBuzzTest extends FlatSpec with Matchers {
 
   "FizzBuzz" should "return fizz if the number is dividable by 3" in {
     FizzBuzz.getResult(3) should be ("fizz")

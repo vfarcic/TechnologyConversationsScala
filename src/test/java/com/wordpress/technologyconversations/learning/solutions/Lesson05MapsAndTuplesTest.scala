@@ -1,11 +1,11 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.mutable
 import scala.collection.immutable
 import java.util.NoSuchElementException
+import org.scalatest.{Matchers, FlatSpec}
 
-class Lesson05MapsAndTuplesTest extends UnitSpec {
+class Lesson05MapsAndTuplesTest extends FlatSpec with Matchers {
 
   "Map" must "be a collection of key value pairs" in {
     // When it's only Map, it's immutable

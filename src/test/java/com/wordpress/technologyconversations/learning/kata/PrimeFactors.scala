@@ -1,7 +1,7 @@
 package com.wordpress.technologyconversations.learning.kata
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.mutable.ArrayBuffer
+import org.scalatest.{Matchers, FlatSpec}
 
 object PrimeFactors {
 
@@ -12,7 +12,7 @@ object PrimeFactors {
 
 // Compute the prime factors of a given natural number.
 // http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata
-class PrimeFactorsTest extends UnitSpec {
+class PrimeFactorsTest extends FlatSpec with Matchers {
 
   "Prime Factors" must "be List() for 1" in {
     PrimeFactors.result(1) should equal (List[Int]())

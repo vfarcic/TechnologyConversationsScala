@@ -1,9 +1,10 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
+
 
 // TODO Publish
-class Lesson11RegExTest extends UnitSpec {
+class Lesson11RegExTest extends FlatSpec with Matchers {
 
   "RegEx" can "be constructed with the r method of the string class" in {
     val pattern = "[0-9]+".r

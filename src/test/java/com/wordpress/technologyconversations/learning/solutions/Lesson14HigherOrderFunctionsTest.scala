@@ -1,9 +1,10 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
+
 
 // TODO Publish
-class Lesson14HigherOrderFunctionsTest extends UnitSpec {
+class Lesson14HigherOrderFunctionsTest extends FlatSpec with Matchers {
 
   "Function" can "be stored as variable" in {
     // _ indicates that it is a function

@@ -1,8 +1,9 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
 
-class Lesson03FunctionsAndExceptionsTest extends UnitSpec {
+
+class Lesson03FunctionsAndExceptionsTest extends FlatSpec with Matchers {
 
   "Function" should "specify types of all parameters" in {
     val expected = 9

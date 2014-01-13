@@ -1,8 +1,9 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
 
-class Lesson07ObjectsTest extends UnitSpec {
+
+class Lesson07ObjectsTest extends FlatSpec with Matchers {
 
   "Object" should "define a single instance of a class (similar to Java singleton) without constructor parameters" in {
     object Person {

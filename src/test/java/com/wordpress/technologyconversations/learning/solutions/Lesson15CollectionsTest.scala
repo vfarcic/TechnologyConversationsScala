@@ -1,10 +1,10 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala._
+import org.scalatest.{Matchers, FlatSpec}
 
 // TODO Publish
-class Lesson15CollectionsTest extends UnitSpec {
+class Lesson15CollectionsTest extends FlatSpec with Matchers {
 
   "All collections" should "extend iterable trait" in {
     val array = Array(1, 2, 3)

@@ -1,8 +1,8 @@
 package com.wordpress.technologyconversations.learning.kata.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.immutable.TreeMap
 import scala.collection.mutable.ArrayBuffer
+import org.scalatest.{Matchers, FlatSpec}
 
 // TODO Publish to TechnologyConversations
 object RomanNumerals {
@@ -59,7 +59,7 @@ object RomanNumerals {
 // There is no need to go above 3000.
 // http://content.codersdojo.org/code-kata-catalogue/roman-numerals/
 // http://www.novaroma.org/via_romana/numbers.html
-class RomanNumeralsTest extends UnitSpec {
+class RomanNumeralsTest extends FlatSpec with Matchers {
 
   val x = 1
 

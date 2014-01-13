@@ -1,9 +1,10 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
+
 
 // TODO Publish
-class Lesson09InheritanceTest extends UnitSpec {
+class Lesson09InheritanceTest extends FlatSpec with Matchers {
 
   "Class" can "extend another class" in {
     class Person {

@@ -1,8 +1,9 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
 
-class Lesson01BasicsTest extends UnitSpec {
+
+class Lesson01BasicsTest extends FlatSpec with Matchers {
 
   "Value" should "be declared with val" in {
     val expected = 35

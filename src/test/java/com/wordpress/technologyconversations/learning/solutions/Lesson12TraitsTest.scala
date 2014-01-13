@@ -1,9 +1,10 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
+import org.scalatest.{Matchers, FlatSpec}
+
 
 // TODO Publish
-class Lesson12TraitsTest extends UnitSpec {
+class Lesson12TraitsTest extends FlatSpec with Matchers {
 
   "Trait" can "have abstract methods (works like a Java interface)" in {
     trait Greeting {

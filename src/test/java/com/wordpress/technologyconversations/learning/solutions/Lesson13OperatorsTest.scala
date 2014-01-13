@@ -1,11 +1,11 @@
 package com.wordpress.technologyconversations.learning.solutions
 
-import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable
+import org.scalatest.{Matchers, FlatSpec}
 
 // TODO Publish
-class Lesson13OperatorsTest extends UnitSpec {
+class Lesson13OperatorsTest extends FlatSpec with Matchers {
 
   "Identifier" can "use much broader set of characters for its name than it is allowed in Java" in {
     val ** = scala.math.pow(_, _)
