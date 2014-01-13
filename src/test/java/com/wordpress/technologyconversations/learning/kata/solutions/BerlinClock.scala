@@ -2,8 +2,6 @@ package com.wordpress.technologyconversations.learning.kata.solutions
 
 import org.scalatest.{Matchers, FlatSpec}
 
-
-// TODO Publish
 object BerlinClock {
 
   def convertToBerlinTime(time: String) = {
