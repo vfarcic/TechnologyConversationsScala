@@ -3,7 +3,6 @@ package com.wordpress.technologyconversations.learning.solutions
 import org.scalatest.{Matchers, FlatSpec}
 
 
-// TODO Publish
 class Lesson09InheritanceTest extends FlatSpec with Matchers {
 
   "Class" can "extend another class" in {
@@ -61,7 +60,7 @@ class Lesson09InheritanceTest extends FlatSpec with Matchers {
       override def toString = super.toString + " became " + name
     }
     val john = new John
-    assert(john.isInstanceOf[John])
+    john.isInstanceOf[John]
     assert(john.isInstanceOf[Person])
     john.getClass should be (classOf[John])
     john.getClass should not be classOf[Person]
@@ -82,16 +81,13 @@ class Lesson09InheritanceTest extends FlatSpec with Matchers {
     class John extends Person {
       secret = "John's secret"
     }
-    // TODO Write assert
   }
 
   "Only the primary constructor" can "call a superclass constructor" in {
-    class Person(address: String) {
-    }
+    class Person(address: String) { }
     // John has two parameters: address and name, one of which it passes to the superclass Person
     class John(address: String, name: String) extends Person(address) {
     }
-    // TODO Write assert
   }
 
   "def" can "only override another def" in {
@@ -122,15 +118,13 @@ class Lesson09InheritanceTest extends FlatSpec with Matchers {
     abstract class Person {
       var name: String
     }
-    class John(override var name: String) extends Person {
-    }
+    class John(override var name: String) extends Person { }
     val john = new John("John")
     john.name should be ("John")
   }
 
   "Anonymous subclass" can "be created with a block" in {
-    class Person(val name: String) {
-    }
+    class Person(val name: String) { }
     // Creates an object with structural type that will be explained later
     val john = new Person("John") {
       def findHim = "Rainy Street is where " + name + " lives"
@@ -138,7 +132,7 @@ class Lesson09InheritanceTest extends FlatSpec with Matchers {
     john.findHim should be ("Rainy Street is where John lives")
   }
 
-  "Methods and fields" can "be abstract if it's body is omitted" in {
+  "Methods and fields" can "be abstract if their bodies are omitted" in {
     abstract class Person {
       // Abstract; there is no field body
       val name: String
@@ -158,7 +152,7 @@ class Lesson09InheritanceTest extends FlatSpec with Matchers {
     bob.address should be ("Rainy Street in UK")
   }
 
-  "Abstruct fields" can "be customized using an anonymous type" in {
+  "Abstract fields" can "be customized using an anonymous type" in {
     abstract class Person {
       val name: String
     }
