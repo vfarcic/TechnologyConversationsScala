@@ -79,7 +79,7 @@
       <file leaf-file-name="BowlingGame.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="6" selection-start="4713" selection-end="4713" vertical-scroll-proportion="0.9119171" vertical-offset="2572" max-vertical-offset="4760">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4675">
               <folding />
             </state>
           </provider>
@@ -1138,7 +1138,7 @@
       <recent name="com.wordpress.technologyconversations.learning" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.BowlingGameScenarioTest">
+  <component name="RunManager" selected="ScalaTest.BowlingGameUnitTest">
     <configuration default="false" name="Lesson07ObjectsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
       <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson07ObjectsTest" />
@@ -1376,8 +1376,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest" />
         <item index="2" class="java.lang.String" itemvalue="ScalaTest.BowlingGameTest" />
         <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson15CollectionsTest." />
         <item index="4" class="java.lang.String" itemvalue="ScalaTest.Lesson07ObjectsTest" />
@@ -1548,7 +1548,11 @@
       <created>1389573755710</created>
       <updated>1389573755710</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Bowling kata refactor&#10;">
+      <created>1389575371089</created>
+      <updated>1389575371089</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1981,7 +1985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="6" selection-start="4713" selection-end="4713" vertical-scroll-proportion="0.9119171" vertical-offset="2572" max-vertical-offset="4760">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4675">
           <folding />
         </state>
       </provider>

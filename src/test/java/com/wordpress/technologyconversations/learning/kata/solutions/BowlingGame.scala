@@ -165,12 +165,7 @@ class BowlingGameUnitTest extends UnitSpec {
     game.roll(2)
     game.roll(3)
     game.roll(4)
-    game.roll(5)
-    game.roll(6)
-    game.frames should equal (List(
-      game.Frame(1, 2, frameFinished = true),
-      game.Frame(3, 4, frameFinished = true),
-      game.Frame(5, 6, frameFinished = true)))
+    game.frames should equal (List(game.Frame(1, 2, frameFinished = true), game.Frame(3, 4, frameFinished = true)))
   }
 
   "Score" should "be sum of all roles" in {
@@ -187,7 +182,7 @@ class BowlingGameUnitTest extends UnitSpec {
   "Strike" should "set 0 as roll2" in {
     val game = new BowlingGame
     game.roll(10)
-    game.frames should equal (List(game.Frame(10, 0, true)))
+    game.frames should equal (List(game.Frame(10, 0, frameFinished = true)))
   }
 
   it should "add next two rolls (not strikes) to the score" in {
