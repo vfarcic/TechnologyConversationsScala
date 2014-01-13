@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/specs/BddSpec.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/specs/BddSpec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/RomanNumerals.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/RomanNumerals.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/RomanNumerals.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/RomanNumerals.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -82,7 +79,7 @@
       <file leaf-file-name="BowlingGame.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="2" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.7797927" vertical-offset="294" max-vertical-offset="4607">
+            <state line="41" column="55" selection-start="1185" selection-end="1237" vertical-scroll-proportion="0.1761658" vertical-offset="629" max-vertical-offset="4658">
               <folding />
             </state>
           </provider>
@@ -1534,7 +1531,11 @@
       <created>1389527159320</created>
       <updated>1389527159320</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added Bowling kata">
+      <created>1389572123186</created>
+      <updated>1389572123186</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1598,7 +1599,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added lesson: Control Structures&#10;Added answers" />
     <MESSAGE value="Added lesson: Functions" />
     <MESSAGE value="Added lazy val to the lesson Basics" />
     <MESSAGE value="Added lesson Arrays" />
@@ -1623,7 +1623,8 @@
     <MESSAGE value="Katas refactoring&#10;" />
     <MESSAGE value="Lessons refactoring" />
     <MESSAGE value="Added Collections lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Collections lesson" />
+    <MESSAGE value="Added Bowling kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bowling kata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1787,7 +1788,9 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar!/scala/collection/TraversableLike.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.35632184" vertical-offset="148" max-vertical-offset="1190" />
+        <state line="16" column="6" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.35632184" vertical-offset="148" max-vertical-offset="1190">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/FizzBuzz.scala">
@@ -1971,7 +1974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="2" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.7797927" vertical-offset="294" max-vertical-offset="4607">
+        <state line="41" column="55" selection-start="1185" selection-end="1237" vertical-scroll-proportion="0.1761658" vertical-offset="629" max-vertical-offset="4658">
           <folding />
         </state>
       </provider>

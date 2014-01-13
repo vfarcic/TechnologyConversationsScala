@@ -16,27 +16,30 @@ class BowlingGame {
   }
 
   def score: Int = {
-    def sum(rollsLeft: List[Roll], frame: Int): Int = {
-      if (rollsLeft == Nil || frame > 10) 0
-      else {
-        var total = rollsLeft.head.roll1 + rollsLeft.head.roll2
-        if (rollsLeft.tail != Nil && rollsLeft.head.roll1 + rollsLeft.head.roll2 == 10) {
-          total += rollsLeft.tail.head.roll1
-          if (rollsLeft.head.roll1 == 10) {
-            if (rollsLeft.tail.head.roll1 < 10) total += rollsLeft.tail.head.roll2
-            else total += rollsLeft.tail.tail.head.roll1
-          }
+    sumScore(rolls, 1)
+  }
+
+  private def sumScore(rollsLeft: List[Roll], frame: Int): Int = {
+    if (rollsLeft.isEmpty || frame > 10) 0
+    else {
+      var total = rollsLeft.head.roll1 + rollsLeft.head.roll2
+      if (rollsLeft.tail != Nil && rollsLeft.head.roll1 + rollsLeft.head.roll2 == 10) { // Spare or strike
+        total += rollsLeft(1).roll1
+        if (rollsLeft.head.roll1 == 10) { // Strike
+          if (rollsLeft(1).roll1 < 10) total += rollsLeft(1).roll2
+          else total += rollsLeft(2).roll1
         }
-        total + sum(rollsLeft.tail, frame + 1)
       }
+      total + sumScore(rollsLeft.tail, frame + 1)
     }
-    sum(rolls, 1)
   }
 
   case class Roll(roll1: Int, roll2: Int = 0, rolled: Int = 1) { }
 
 }
 
+// Sum the scores of a bowling game of one player.
+// http://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring
 class BowlingGameScenarioTest extends BddSpec {
 
   scenario("Bowling game") {
