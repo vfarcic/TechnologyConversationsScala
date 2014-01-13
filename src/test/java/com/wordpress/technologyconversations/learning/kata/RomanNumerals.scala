@@ -1,6 +1,6 @@
 package com.wordpress.technologyconversations.learning.kata
 
-import com.wordpress.technologyconversations.learning.specs.{BddSpec, UnitSpec}
+import com.wordpress.technologyconversations.learning.specs.UnitSpec
 import scala.collection.immutable.TreeMap
 import scala.collection.mutable.ArrayBuffer
 
