@@ -5,36 +5,39 @@ import com.wordpress.technologyconversations.learning.specs.{BddSpec, UnitSpec}
 // TODO Publish
 class BowlingGame {
 
-  var rolls = List[Roll]()
+  var frames = List[Frame]()
 
   def roll(pins: Int) {
-    if (rolls.size > 0 && rolls.last.rolled == 1) {
-      rolls = rolls.init :+ (Roll(rolls.last.roll1, pins, 2))
+    if (frames.size > 0 && !frames.last.frameFinished) {
+      frames.last.roll2 = pins
+      frames.last.frameFinished = true
     } else {
-      rolls = rolls :+ (Roll(pins, 0, if (pins == 10) 2 else 1))
+      frames = frames :+ Frame(pins)
     }
   }
 
   def score: Int = {
-    sumScore(rolls, 1)
+    sumScore(frames)
   }
 
-  private def sumScore(rollsLeft: List[Roll], frame: Int): Int = {
-    if (rollsLeft.isEmpty || frame > 10) 0
-    else {
-      var total = rollsLeft.head.roll1 + rollsLeft.head.roll2
-      if (rollsLeft.tail != Nil && rollsLeft.head.roll1 + rollsLeft.head.roll2 == 10) { // Spare or strike
-        total += rollsLeft(1).roll1
-        if (rollsLeft.head.roll1 == 10) { // Strike
-          if (rollsLeft(1).roll1 < 10) total += rollsLeft(1).roll2
-          else total += rollsLeft(2).roll1
-        }
+  private def sumScore(framesLeft: List[Frame]): Int = {
+    var total = framesLeft.head.sum
+    if (framesLeft.tail != Nil && framesLeft.head.sum == 10) {
+      total += framesLeft(1).roll1
+      if (framesLeft.head.strike) {
+        if (!framesLeft(1).strike) total += framesLeft(1).roll2
+        else total += framesLeft(2).roll1
       }
-      total + sumScore(rollsLeft.tail, frame + 1)
     }
+    if (!framesLeft.tail.isEmpty && (frames.size - framesLeft.tail.size) < 10) total += sumScore(framesLeft.tail)
+    total
   }
 
-  case class Roll(roll1: Int, roll2: Int = 0, rolled: Int = 1) { }
+  case class Frame(roll1: Int, var roll2: Int = 0, var frameFinished: Boolean = false) {
+    def strike = roll1 == 10
+    if (strike) frameFinished = true
+    def sum: Int = roll1 + roll2
+  }
 
 }
 
@@ -146,14 +149,14 @@ class BowlingGameUnitTest extends UnitSpec {
   "First roll" should "store pins as roll1 and () as roll2" in {
     val game = new BowlingGame
     game.roll(4)
-    game.rolls should equal (List(game.Roll(4, 0, 1)))
+    game.frames should equal (List(game.Frame(4, 0, frameFinished = false)))
   }
 
   "Second roll" should "set pins as roll2 to the last rolls element" in {
     val game = new BowlingGame
     game.roll(4)
     game.roll(2)
-    game.rolls should equal (List(game.Roll(4, 2, 2)))
+    game.frames should equal (List(game.Frame(4, 2, frameFinished = true)))
   }
 
   "Three frames" should "be stored as three rolls elements" in {
@@ -164,7 +167,10 @@ class BowlingGameUnitTest extends UnitSpec {
     game.roll(4)
     game.roll(5)
     game.roll(6)
-    game.rolls should equal (List(game.Roll(1, 2, 2), game.Roll(3, 4, 2), game.Roll(5, 6, 2)))
+    game.frames should equal (List(
+      game.Frame(1, 2, frameFinished = true),
+      game.Frame(3, 4, frameFinished = true),
+      game.Frame(5, 6, frameFinished = true)))
   }
 
   "Score" should "be sum of all roles" in {
@@ -181,7 +187,7 @@ class BowlingGameUnitTest extends UnitSpec {
   "Strike" should "set 0 as roll2" in {
     val game = new BowlingGame
     game.roll(10)
-    game.rolls should equal (List(game.Roll(10, 0, 2)))
+    game.frames should equal (List(game.Frame(10, 0, true)))
   }
 
   it should "add next two rolls (not strikes) to the score" in {
