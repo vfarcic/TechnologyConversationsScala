@@ -37,7 +37,7 @@ class Lesson15CollectionsTest extends FlatSpec with Matchers {
   "Immutable collections" can "create new collections out of old ones" in {
     val set = Set(1, 2, 3)
     val newSet = set + 4
-    set should not contain (4)
+    set should not contain 4
     newSet should contain (4)
   }
 
@@ -63,7 +63,7 @@ class Lesson15CollectionsTest extends FlatSpec with Matchers {
   it can "use :: to make a new list" in {
     val list = List("Red", "Green")
     val newList = "Blue" :: list
-    (newList) should equal (List("Blue", "Red", "Green"))
+    newList should equal (List("Blue", "Red", "Green"))
   }
 
   it can "be traversed using recursion" in {
@@ -95,12 +95,12 @@ class Lesson15CollectionsTest extends FlatSpec with Matchers {
     numbers.mkString should be ("516234")
   }
 
-  "Linked hash set" should "remember the order in which elements were inserted" in {
+  "Linked Hash Set" should "remember the order in which elements were inserted" in {
     val numbers = collection.mutable.LinkedHashSet(1, 2, 3, 4, 5, 6)
     numbers.mkString should be ("123456")
   }
 
-  "Sorted set" should "have elements ordered" in {
+  "Sorted Set" should "have elements ordered" in {
     val numbers = collection.immutable.SortedSet(3, 1, 2)
     numbers.mkString should be ("123")
   }
@@ -115,7 +115,7 @@ class Lesson15CollectionsTest extends FlatSpec with Matchers {
   "Add (+) and remove (-)" can "be used on an unordered collection" in {
     val numbers = Set(1, 2, 3) + 4 - 2
     numbers should contain (4)
-    numbers should not contain (2)
+    numbers should not contain 2
   }
 
   "Bulk add (++) and remove (--)" can "be used" in {
@@ -131,7 +131,7 @@ class Lesson15CollectionsTest extends FlatSpec with Matchers {
 
   "Mutations (+=), (++=), (-=), (--=)" can "be used on mutable collections" in {
     val numbers = collection.mutable.ArrayBuffer(1, 2) += 3 -= 1 ++= Array(5, 6, 7, 8) --= Array(6, 7)
-    numbers should have size (4)
+    numbers should have size 4
   }
 
   "Map method" should "apply a function to a collection and yield a collection of results" in {
@@ -145,7 +145,7 @@ class Lesson15CollectionsTest extends FlatSpec with Matchers {
     val numbers = 1 to 3
     val multipliedNumbers = numbers.map(_ * 10)
     // Same as previous
-    val multipliedNumbersWithYield = for (number <- numbers) yield number * 10
+    val multipliedNumbersWithYield = for(number <- numbers) yield number * 10
     multipliedNumbersWithYield should equal (multipliedNumbers)
   }
 
