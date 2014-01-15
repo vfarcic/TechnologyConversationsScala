@@ -2,7 +2,6 @@ package com.wordpress.technologyconversations.learning.kata.solutions
 
 import org.scalatest.{Matchers, FlatSpec}
 
-// TODO Publish to TechnologyConversations
 object PrimeFactors {
 
   def result(number: Int): List[Int] = {
