@@ -2,7 +2,6 @@ package com.wordpress.technologyconversations.learning.kata.solutions
 
 import org.scalatest.{GivenWhenThen, FeatureSpec, Matchers, FlatSpec}
 
-// TODO Publish
 class TennisGame(player1: String, player2: String) {
 
   val points = collection.mutable.Map(player1 -> 0, player2 -> 0)
@@ -12,7 +11,7 @@ class TennisGame(player1: String, player2: String) {
 
   def score() = {
     val arr = points.toList.sortBy(_._2)
-    val (lp, wp) = ((arr(0)_1), (arr(1)_1)) // Loosing and winning players
+    val (lp, wp) = (arr(0)._1, arr(1)._1) // Loosing and winning players
     if (points(wp) >= 3 && points(lp) >= 3) {
       if (points(wp) - points(lp) >= 2) wp + " won"
       else if (points(lp) == points(wp)) "deuce"
@@ -22,12 +21,16 @@ class TennisGame(player1: String, player2: String) {
 
 }
 
-// http://codingdojo.org/cgi-bin/wiki.pl?KataTennis
-// Implement a simple tennis game
-// 1. Scores from zero to three points are described as "love", "fifteen", "thirty", and "forty" respectively.
-// 2. If at least three points have been scored by each side and a player has one more point than his opponent, the score of the game is "advantage" for the player in the lead.
-// 3. If at least three points have been scored by each player, and the scores are equal, the score is "deuce".
-// 4. A game is won by the first player to have won at least four points in total and at least two points more than the opponent.
+/*
+Implement a simple tennis game
+
+**Rules:**
+
+* Scores from zero to three points are described as "love", "fifteen", "thirty", and "forty" respectively.
+* If at least three points have been scored by each side and a player has one more point than his opponent, the score of the game is "advantage" for the player in the lead.
+* If at least three points have been scored by each player, and the scores are equal, the score is "deuce".
+* A game is won by the first player to have won at least four points in total and at least two points more than the opponent.
+*/
 class TennisGameUnitTest extends FlatSpec with Matchers {
 
   "Points" can "be added to each player" in {
@@ -78,7 +81,7 @@ class TennisGameUnitTest extends FlatSpec with Matchers {
     (1 to 3).foreach(x => game.winBall("Sarah"))
     game.score() should be ("deuce")
     game.winBall("Victor")
-    game.score() should not be ("deuce")
+    game.score() should not be "deuce"
     game.winBall("Sarah")
     game.score() should be ("deuce")
   }
@@ -87,8 +90,8 @@ class TennisGameUnitTest extends FlatSpec with Matchers {
     val game = new TennisGame("Victor", "Sarah")
     (1 to 4).foreach(x => game.winBall("Victor"))
     (1 to 3).foreach(x => game.winBall("Sarah"))
-    game.score() should not be ("Victor won")
-    game.score() should not be ("Sarah won")
+    game.score() should not be "Victor won"
+    game.score() should not be "Sarah won"
     game.winBall("Victor")
     game.score() should be ("Victor won")
   }
