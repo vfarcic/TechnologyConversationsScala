@@ -12,8 +12,7 @@ class TennisGame(player1: String, player2: String) {
 
   def score() = {
     val arr = points.toList.sortBy(_._2)
-    val lp = (arr(0)_1) // Loosing player
-    val wp = (arr(1)_1) // Winning player
+    val (lp, wp) = ((arr(0)_1), (arr(1)_1)) // Winning player
     if (points(wp) >= 3 && points(lp) >= 3) {
       if (points(wp) - points(lp) >= 2) wp + " won"
       else if (points(lp) == points(wp)) "deuce"

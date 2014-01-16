@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Collections lesson refactor">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/TennisGame.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala" />
-      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\kata\RomanNumerals.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\programming\workspace\TechnologyConversationsScala\src\test\java\com\wordpress\technologyconversations\learning\kata\solutions\RomanNumerals.scala" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala" afterPath="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -74,7 +71,7 @@
       <file leaf-file-name="Lesson16PatternMatchingAndCaseClasses.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="25" selection-start="3025" selection-end="3025" vertical-scroll-proportion="0.0" vertical-offset="1452" max-vertical-offset="2040">
+            <state line="108" column="6" selection-start="3311" selection-end="3311" vertical-scroll-proportion="0.0" vertical-offset="1654" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -83,16 +80,7 @@
       <file leaf-file-name="TennisGame.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.58981234" vertical-offset="256" max-vertical-offset="2992">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TennisGame.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/TennisGame.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="7" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
+            <state line="14" column="21" selection-start="483" selection-end="484" vertical-scroll-proportion="0.5013405" vertical-offset="51" max-vertical-offset="2975">
               <folding />
             </state>
           </provider>
@@ -1068,7 +1056,11 @@
       <created>1389727324721</created>
       <updated>1389727324721</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Added Tennis Game kata">
+      <created>1389831444484</created>
+      <updated>1389831444484</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1132,7 +1124,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added lesson Classes&#10;" />
     <MESSAGE value="Added lesson Objects&#10;" />
     <MESSAGE value="Added FizzBuzz kata" />
     <MESSAGE value="Added Inheritance lesson&#10;Added PrimeFactors kata" />
@@ -1157,7 +1148,8 @@
     <MESSAGE value="Inheritance tutorial refactor&#10;" />
     <MESSAGE value="Prime factors kata refactor" />
     <MESSAGE value="Collections lesson refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections lesson refactor" />
+    <MESSAGE value="Added Tennis Game kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tennis Game kata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1462,13 +1454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="25" selection-start="3025" selection-end="3025" vertical-scroll-proportion="0.0" vertical-offset="1484" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="268" column="23" selection-start="7060" selection-end="7060" vertical-scroll-proportion="0.693299" vertical-offset="4287" max-vertical-offset="4743">
@@ -1483,9 +1468,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="6" selection-start="3311" selection-end="3311" vertical-scroll-proportion="0.0" vertical-offset="1654" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.58981234" vertical-offset="256" max-vertical-offset="2992">
+        <state line="14" column="21" selection-start="483" selection-end="484" vertical-scroll-proportion="0.5013405" vertical-offset="51" max-vertical-offset="2975">
           <folding />
         </state>
       </provider>
