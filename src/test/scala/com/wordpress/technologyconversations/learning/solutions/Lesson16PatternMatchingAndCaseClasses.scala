@@ -111,4 +111,16 @@ class Lesson16PatternMatchingAndCaseClasses  extends FlatSpec with Matchers {
     color should be ("Depressing")
   }
 
+  "Patterns" can "be used to declar variables" in {
+    val (color1, color2) = ("Red", "Green")
+    color2 should be ("Green")
+  }
+
+  it can "be used with arrays" in {
+    val array = Array("Red", "Green", "Blue")
+    // redColor and greenColor are assigned content of the first and second Array elements
+    val Array(redColor, greenColor, _*) = array
+    greenColor should be ("Green")
+  }
+
 }

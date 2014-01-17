@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="">
+    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Published&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/Permutations.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/TennisGame.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/TennisGame.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -69,30 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lesson16PatternMatchingAndCaseClasses.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala">
+      <file leaf-file-name="BowlingGame.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="36" selection-start="3727" selection-end="3727" vertical-scroll-proportion="0.0" vertical-offset="1756" max-vertical-offset="2244">
+            <state line="47" column="6" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="4777">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TennisGame.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala">
+      <file leaf-file-name="Permutations.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/Permutations.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="168" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="3451">
-              <folding>
-                <element signature="e#71#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TennisGame.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/TennisGame.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
+            <state line="7" column="0" selection-start="142" selection-end="248" vertical-scroll-proportion="0.22020726" vertical-offset="34" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -111,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson06ClassesTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/Lesson01BasicsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/FizzBuzz.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson01BasicsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson03FunctionsTest.scala" />
@@ -159,9 +146,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/TennisGame.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/TennisGame.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/Permutations.scala" />
       </list>
     </option>
   </component>
@@ -545,74 +534,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson07ObjectsTest.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TennisGame.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="kata" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -650,8 +571,42 @@
               <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TennisGame.scala" />
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Permutations.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -688,42 +643,8 @@
               <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FizzBuzz.scala" />
+              <option name="myItemId" value="BowlingGame.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -773,37 +694,7 @@
       <recent name="com.wordpress.technologyconversations.learning" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.TennisGameUnitTest">
-    <configuration default="false" name="Lesson16PatternMatchingAndCaseClasses" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.solutions.Lesson16PatternMatchingAndCaseClasses" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BowlingGameUnitTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.kata.solutions.BowlingGameUnitTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.PermutationsTest">
     <configuration default="false" name="TennisGameUnitTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
       <setting name="path" value="com.wordpress.technologyconversations.learning.kata.solutions.TennisGameUnitTest" />
@@ -834,9 +725,39 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TennisGameScenarioTest (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="BowlingGameScenarioTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.kata.TennisGameScenarioTest" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.kata.solutions.BowlingGameScenarioTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BowlingGameUnitTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.kata.solutions.BowlingGameUnitTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PermutationsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.wordpress.technologyconversations.learning.kata.solutions.PermutationsTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -1003,19 +924,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.Lesson16PatternMatchingAndCaseClasses" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.TennisGameUnitTest" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.TennisGameScenarioTest" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.TennisGameScenarioTest (1)" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.TennisGameUnitTest" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.TennisGameScenarioTest" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.PermutationsTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.TennisGameUnitTest" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.TennisGameScenarioTest" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.TennisGameScenarioTest (1)" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Lesson16PatternMatchingAndCaseClasses" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.PermutationsTest" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.TennisGameUnitTest" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.TennisGameScenarioTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1231,7 +1152,11 @@
       <created>1389878405398</created>
       <updated>1389878405398</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Published&#10;">
+      <created>1389914364803</created>
+      <updated>1389914364803</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1263,6 +1188,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39739415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1278,7 +1204,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -1295,7 +1220,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Change kata package" />
     <MESSAGE value="Added lesson RegEx" />
     <MESSAGE value="Added lesson Traits" />
     <MESSAGE value="Added lesson Traits&#10;" />
@@ -1320,7 +1244,8 @@
     <MESSAGE value="Tennis Game kata refactor" />
     <MESSAGE value="Renamed java to scala source directory" />
     <MESSAGE value="Published" />
-    <option name="LAST_COMMIT_MESSAGE" value="Published" />
+    <MESSAGE value="Published&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Published&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1330,13 +1255,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="318" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson15CollectionsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="44" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
@@ -1549,13 +1467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/BowlingGame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson15CollectionsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="7" selection-start="3261" selection-end="3265" vertical-scroll-proportion="0.3314121" vertical-offset="1602" max-vertical-offset="3434">
@@ -1598,13 +1509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="415" selection-end="415" vertical-scroll-proportion="0.043589745" vertical-offset="238" max-vertical-offset="4743">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BerlinClock.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="7" selection-start="121" selection-end="121" vertical-scroll-proportion="0.18230563" vertical-offset="0" max-vertical-offset="2295">
@@ -1633,22 +1537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="36" selection-start="3727" selection-end="3727" vertical-scroll-proportion="0.0" vertical-offset="1756" max-vertical-offset="2244">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="168" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="3451">
-          <folding>
-            <element signature="e#71#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="1" selection-start="2981" selection-end="2981" vertical-scroll-proportion="0.54423594" vertical-offset="1463" max-vertical-offset="1836">
@@ -1658,7 +1546,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/TennisGame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
+        <state line="15" column="1" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.86327076" vertical-offset="137" max-vertical-offset="3451">
+          <folding>
+            <element signature="e#71#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/BowlingGame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="134" selection-end="134" vertical-scroll-proportion="0.04404145" vertical-offset="51" max-vertical-offset="4284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson16PatternMatchingAndCaseClasses.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="3" selection-start="3777" selection-end="3777" vertical-scroll-proportion="1.126943" vertical-offset="1656" max-vertical-offset="2244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="6" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="4777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/Permutations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="142" selection-end="248" vertical-scroll-proportion="0.22020726" vertical-offset="34" max-vertical-offset="765">
           <folding />
         </state>
       </provider>

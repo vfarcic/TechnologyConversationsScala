@@ -33,8 +33,10 @@ class BowlingGame {
     total
   }
 
-  case class Frame(roll1: Int, var roll2: Int = 0, var frameFinished: Boolean = false) {
+  case class Frame(roll1: Int) {
+    var roll2: Int = 0
     def strike = roll1 == 10
+    var frameFinished: Boolean = false
     if (strike) frameFinished = true
     def sum: Int = roll1 + roll2
   }
