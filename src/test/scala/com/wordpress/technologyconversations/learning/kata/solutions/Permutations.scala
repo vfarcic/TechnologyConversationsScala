@@ -2,10 +2,6 @@ package com.wordpress.technologyconversations.learning.kata.solutions
 
 import org.scalatest.{GivenWhenThen, FeatureSpec, Matchers, FlatSpec}
 
-object Permutations {
-  def apply(text: String) = text.toCharArray.permutations.toArray.map(_.mkString)
-}
-
 class PermutationsTest extends FeatureSpec with GivenWhenThen with Matchers {
 
   scenario("Program returns all permutations of a given string") {

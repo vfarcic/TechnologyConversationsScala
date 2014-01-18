@@ -2,17 +2,6 @@ package com.wordpress.technologyconversations.learning.kata.solutions
 
 import org.scalatest.{Matchers, FlatSpec}
 
-object PrimeFactors {
-
-  def result(number: Int): List[Int] = {
-    for(n <- 2 to number if (number % n == 0)) {
-      return n :: result(number / n)
-    }
-    List()
-  }
-
-}
-
 // Compute the prime factors of a given natural number.
 class PrimeFactorsTest extends FlatSpec with Matchers {
 
