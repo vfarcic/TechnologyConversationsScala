@@ -18,51 +18,61 @@ class MarsRoverTest extends FlatSpec with Matchers {
 
   "Planet" can "define its size" in {
     val mars = Planet(5, 6)
-    mars.sizeX should be (5)
-    mars.sizeY should be (6)
+    mars.coordinates.x.location should be (5)
+    mars.coordinates.y.location should be (6)
   }
 
   "Rover" should "accept starting point (X,Y) of a rover and the direction (N,S,E,W) it is facing" in {
     val rover = Rover(12, 42, 'E')
-    rover.x should be (12)
-    rover.y should be (42)
+    rover.coordinates.x.location should be (12)
+    rover.coordinates.y.location should be (42)
     rover.direction should be ('E')
   }
 
   it should "be able to move forward (f)" in {
     val rover = Rover(12, 42, 'E')
-    rover.sendCommand(Array('f'))
-    rover.x should be (13)
-    rover.y should be (42)
+    rover.sendCommands("f")
+    rover.coordinates.x.location should be (13)
+    rover.coordinates.y.location should be (42)
   }
 
   it should "be able to move backward (b)" in {
     val rover = Rover(12, 42, 'E')
-    rover.sendCommand(Array('b'))
-    rover.x should be (11)
-    rover.y should be (42)
+    rover.sendCommands("b")
+    rover.coordinates.x.location should be (11)
+    rover.coordinates.y.location should be (42)
   }
 
   it should "be able to turn left (l)" in {
-    val rover = Rover(12, 42, 'E')
-    rover.sendCommand(Array('l'))
-    rover.direction should be ('N')
+    val rover = Rover(12, 42, 'N')
+    rover.sendCommands("l")
+    rover.direction should be ('W')
   }
 
   it should "be able to receive a character array of commands" in {
     val rover = Rover(12, 42, 'E')
-    rover.sendCommand(Array('f', 'l', 'f'))
-    rover.x should be (13)
-    rover.y should be (43)
+    rover.sendCommands("flf")
+    rover.coordinates.x.location should be (13)
+    rover.coordinates.y.location should be (43)
     rover.direction should be ('N')
   }
 
   it should "wrap from one edge of the grid to another" in {
     val rover = Rover(1, 1, 'E', Planet(3, 3))
-    rover.sendCommand(Array('f', 'f', 'f'))
-    rover.x should be (1)
-    rover.sendCommand(Array('r', 'f', 'f', 'f'))
-    rover.y should be (1)
+    rover.sendCommands("fff")
+    rover.coordinates.x.location should be (1)
+    rover.sendCommands("rfff")
+    rover.coordinates.y.location should be (1)
+  }
+
+  it should "report OK and array of commands if no obstacle was found" in {
+    val rover = Rover(12, 42, 'E')
+    rover.sendCommands("f") should be ("OK: f")
+  }
+
+  it should "report NOK and array of commands that lead to an obstacle" in {
+    val rover = Rover(1, 1, 'N', Planet(10, 10, Array(Coordinates(1, 3))))
+    rover.sendCommands("ff") should be ("NOK: f")
   }
 
 }
