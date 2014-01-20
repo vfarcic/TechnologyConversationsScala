@@ -6,30 +6,23 @@ class Rover(val coordinates: Coordinates, var direction: Char, val planet: Plane
 
   def sendCommands(commands: String): String = {
     def sendCommands(commands: List[Char], performed: String): String = {
-      var ok = true
       commands.head match {
-        case 'f' => ok = move(1)
-        case 'b' => ok = move(-1)
+        case 'f' => if(!move(1)) return performed
+        case 'b' => if(!move(-1)) return performed
         case 'l' => turn(-1)
         case 'r' => turn(1)
       }
-      if (!ok) performed
-      else if (commands.tail == Nil) performed + commands.head.toString
+      if (commands.tail == Nil) performed + commands.head.toString
       else sendCommands(commands.tail, performed + commands.head.toString)
     }
     val performed = sendCommands(commands.toList, "")
-    val status = if (performed == commands) "OK" else "NOK"
-    status + ": " + performed
+    (if (performed == commands) "OK" else "NOK") + ": " + performed
   }
 
   private def move(stepDirection: Int): Boolean = {
     val newCoordinates = coordinates.step(stepDirection, direction, planet.coordinates)
-    if (planet.hasObstacle(newCoordinates)) {
-      false
-    } else {
-      coordinates.update(newCoordinates)
-      true
-    }
+    if (planet.hasObstacle(newCoordinates)) false
+    else { coordinates.update(newCoordinates); true }
   }
 
   private def turn(turnDirection: Int) {
