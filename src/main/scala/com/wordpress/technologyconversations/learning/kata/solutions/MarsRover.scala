@@ -2,7 +2,7 @@ package com.wordpress.technologyconversations.learning.kata.solutions
 
 class Rover(val coordinates: Coordinates, var direction: Char, val planet: Planet) {
 
-  val compass = Array('N', 'E', 'S', 'W')
+  val compass = Seq('N', 'E', 'S', 'W')
 
   def sendCommands(commands: String): String = {
     def sendCommands(commands: List[Char], performed: String): String = {
@@ -36,7 +36,7 @@ object Rover {
   }
 }
 
-class Planet(val coordinates: Coordinates = Coordinates(100, 100), obstacles: Array[Coordinates] = Array()) {
+class Planet(val coordinates: Coordinates = Coordinates(100, 100), obstacles: List[Coordinates] = List()) {
   def hasObstacle(location: Coordinates): Boolean = {
     for (coordinates <- obstacles) {
       if (coordinates.x == location.x && coordinates.y == location.y) {
@@ -47,7 +47,7 @@ class Planet(val coordinates: Coordinates = Coordinates(100, 100), obstacles: Ar
   }
 }
 object Planet {
-  def apply(maxX: Int = 100, maxY: Int = 100, obstacles: Array[Coordinates] = Array()) = {
+  def apply(maxX: Int = 100, maxY: Int = 100, obstacles: List[Coordinates] = List()) = {
     new Planet(Coordinates(maxX, maxY), obstacles)
   }
 }

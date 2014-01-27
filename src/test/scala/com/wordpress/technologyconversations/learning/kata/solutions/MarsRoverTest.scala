@@ -71,7 +71,7 @@ class MarsRoverTest extends FlatSpec with Matchers {
   }
 
   it should "report NOK and array of commands that lead to an obstacle" in {
-    val rover = Rover(1, 1, 'N', Planet(10, 10, Array(Coordinates(1, 3))))
+    val rover = Rover(1, 1, 'N', Planet(10, 10, List(Coordinates(1, 3))))
     rover.sendCommands("ff") should be ("NOK: f")
   }
 
