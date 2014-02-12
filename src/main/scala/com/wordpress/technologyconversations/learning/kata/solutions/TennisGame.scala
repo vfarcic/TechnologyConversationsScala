@@ -23,6 +23,6 @@ class Player(val name: String) extends Ordered[Player] {
   def winBall { score += 1 }
 }
 
-object Player {
+  object Player {
   def apply(name: String) = {new Player(name)}
 }
