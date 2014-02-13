@@ -85,7 +85,7 @@ class BankOcrScenarioTest extends FeatureSpec with GivenWhenThen with Matchers {
 //
 //    val digits = "711111111"
 //
-//    Given(s"Pipes are representing 111111111")
+//    Given(s"pipes are representing 111111111")
 //    val pipes =
 //      "                           \n" +
 //      "  |  |  |  |  |  |  |  |  |\n" +
@@ -177,13 +177,13 @@ class BankOcrUnitTest extends FlatSpec with Matchers {
     new BankOcr().parse(actual) should be("123456780 ERR")
   }
 
-  "findVariations" should "find all possible digit variations" in {
+  "findDigitVariations" should "find all possible variations of one pipes digit" in {
     val actual =
       "   \n" +
       "  |\n" +
       "  |\n" +
       "   "
-    new BankOcr().findVariations(actual) should have size 2
+    new BankOcr().findDigitVariations(actual) should have size 2
   }
 
   it should "return all possible digit variations" in {
@@ -192,7 +192,7 @@ class BankOcrUnitTest extends FlatSpec with Matchers {
       "  |\n" +
       "  |\n" +
       "   "
-    new BankOcr().findVariations(actual) should equal(Set("1", "7"))
+    new BankOcr().findDigitVariations(actual) should equal(Set("1", "7"))
   }
 
 }

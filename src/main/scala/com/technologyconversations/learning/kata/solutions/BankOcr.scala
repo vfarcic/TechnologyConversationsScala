@@ -35,17 +35,17 @@ class BankOcr {
     else ""
   }
 
-  def findVariations(pipesDigit: String, charIndex: Int = 0, digitVariations: Set[String] = Set()): Set[String] = {
+  def findDigitVariations(pipesDigit: String, charIndex: Int = 0, digitVariations: Set[String] = Set()): Set[String] = {
     val pipes = "_| "
     if (charIndex >= pipesDigit.size) digitVariations
     else {
       for (pipe <- pipes) {
         val newDigit = digit(pipesDigit.patch(charIndex, pipe.toString, 1).split("\n"))
         if (!digitVariations.contains(newDigit) && newDigit != "?") {
-          return findVariations(pipesDigit, charIndex, digitVariations + newDigit)
+          return findDigitVariations(pipesDigit, charIndex, digitVariations + newDigit)
         }
       }
-      findVariations(pipesDigit, charIndex + 1, digitVariations)
+      findDigitVariations(pipesDigit, charIndex + 1, digitVariations)
     }
   }
 
@@ -63,6 +63,9 @@ class BankOcr {
     }
     val digits = pipesToDigits(pipes.split("\n").toList).mkString
     val digitsStatus = status(digits)
+    if (digitsStatus == "ERR") {
+//      val variations = findVariations()
+    }
     s"$digits $digitsStatus".trim
   }
 
