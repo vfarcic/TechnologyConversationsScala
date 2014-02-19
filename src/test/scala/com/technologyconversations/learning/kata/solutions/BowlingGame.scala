@@ -1,9 +1,8 @@
-package com.wordpress.technologyconversations.learning.kata.solutions
+package com.technologyconversations.learning.kata.solutions
 
 import org.scalatest.{FlatSpec, Matchers, GivenWhenThen, FeatureSpec}
+import com.technologyconversations.learning.kata.solutions.BowlingGame
 
-// Sum the scores of a bowling game of one player.
-// http://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring
 class BowlingGameScenarioTest extends FeatureSpec with GivenWhenThen with Matchers {
 
   scenario("Bowling game") {
