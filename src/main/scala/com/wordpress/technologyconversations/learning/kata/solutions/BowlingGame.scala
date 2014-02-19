@@ -1,7 +1,5 @@
 package com.wordpress.technologyconversations.learning.kata.solutions
 
-
-// TODO Publish
 class BowlingGame {
 
   var frames = List[Frame]()
