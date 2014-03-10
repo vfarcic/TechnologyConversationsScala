@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Bowling kata finished&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
-      <change type="DELETED" beforePath="C:\Programming\workspace\TechnologyConversationsScala\src\main\scala\com\wordpress\technologyconversations\learning\kata\solutions\BowlingGame.scala" afterPath="" />
-      <change type="MOVED" beforePath="C:\Programming\workspace\TechnologyConversationsScala\src\test\scala\com\wordpress\technologyconversations\learning\kata\solutions\BowlingGame.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
+    <list default="true" id="2f256188-b564-4134-9cad-beb5e7311c10" name="Default" comment="Finished NumbersInWords kata">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/NumbersInWords.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/NumbersInWordsTest.scala" />
+      <change type="DELETED" beforePath="C:\Programming\workspace\TechnologyConversationsScala\test_data\Lesson10Files.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Programming\workspace\TechnologyConversationsScala\test_data\Lesson10FilesLines.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TechnologyConversationsScala.iws" />
@@ -69,22 +71,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BowlingGame.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala">
+      <file leaf-file-name="NumbersInWordsTest.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/NumbersInWordsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="1" selection-start="316" selection-end="1367" vertical-scroll-proportion="1.3154762" vertical-offset="85" max-vertical-offset="850">
+            <state line="133" column="3" selection-start="4948" selection-end="4948" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="3757">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingGame.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala">
+      <file leaf-file-name="NumbersInWords.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/NumbersInWords.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="16" selection-start="5810" selection-end="5810" vertical-scroll-proportion="0.0" vertical-offset="3355" max-vertical-offset="4063">
-              <folding>
-                <element signature="e#61#130#0" expanded="true" />
-              </folding>
+            <state line="56" column="24" selection-start="2277" selection-end="2277" vertical-scroll-proportion="0.16798419" vertical-offset="867" max-vertical-offset="1377">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson12TraitsTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson10SourceTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson08PackagesTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson02ControlStructuresTest.scala" />
         <option value="$PROJECT_DIR$/src/test/java/com/wordpress/technologyconversations/learning/solutions/Lesson07ObjectsTest.scala" />
@@ -140,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/Permutations.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/PrimeFactors.scala" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/Permutations.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/Rover.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/MarsRover.scala" />
@@ -160,6 +157,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/NumbersInWordsTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/NumbersInWords.scala" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -440,7 +440,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -449,24 +448,6 @@
               <option name="myItemId" value="TechnologyConversationsScala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.scala-lang:scala-library:2.10.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -503,14 +484,6 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -538,12 +511,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="learning" />
+              <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="NumbersInWordsTest.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -609,6 +582,36 @@
               <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankOcrUnitTest.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechnologyConversationsScala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -639,38 +642,8 @@
               <option name="myItemId" value="solutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TechnologyConversationsScala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TennisGame.scala" />
+              <option name="myItemId" value="NumbersInWords.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,6 +679,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -752,10 +726,52 @@
       <recent name="C:\programming\workspace\TechnologyConversationsScala" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.BowlingGameUnitTest (1)">
-    <configuration default="false" name="BankOcrUnitTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.NumbersInWordsUnitTest">
+    <configuration default="false" name="NumbersInWordsUnitTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.technologyconversations.learning.kata.solutions.BankOcrUnitTest" />
+      <setting name="path" value="com.technologyconversations.learning.kata.solutions.NumbersInWordsUnitTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumbersInWordsUnitTest.numbersToWords should return one million two hundred thirty four thousand five hundred sixty seven if amount is 1.234.567" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.technologyconversations.learning.kata.solutions.NumbersInWordsUnitTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="numbersToWords should return one million two hundred thirty four thousand five hundred sixty seven if amount is 1.234.567" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumbersInWordsSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="TechnologyConversationsScala" />
+      <setting name="path" value="com.technologyconversations.learning.kata.solutions.NumbersInWordsSpec" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -768,63 +784,39 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="BowlingGameUnitTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="NumbersInWordsUnitTest.wordsToNumbers should return 745 if amount is seven hundred forty five" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.kata.solutions.BowlingGameUnitTest" />
+      <setting name="path" value="com.technologyconversations.learning.kata.solutions.NumbersInWordsUnitTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
+      <setting name="testName" value="wordsToNumbers should return 745 if amount is seven hundred forty five" />
+      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="BowlingGameScenarioTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="NumbersInWordsUnitTest.wordsToNumbers should return 1.234.567 if amount is one million two hundred thirty four thousand five hundred sixty seven" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.wordpress.technologyconversations.learning.kata.solutions.BowlingGameScenarioTest" />
+      <setting name="path" value="com.technologyconversations.learning.kata.solutions.NumbersInWordsUnitTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
+      <setting name="testName" value="wordsToNumbers should return 1.234.567 if amount is one million two hundred thirty four thousand five hundred sixty seven" />
+      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BowlingGameScenarioTest (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.technologyconversations.learning.kata.solutions.BowlingGameScenarioTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BowlingGameUnitTest (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="TechnologyConversationsScala" />
-      <setting name="path" value="com.technologyconversations.learning.kata.solutions.BowlingGameUnitTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1011,19 +1003,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.BankOcrUnitTest" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest (1)" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest (1)" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest.numbersToWords should return one million two hundred thirty four thousand five hundred sixty seven if amount is 1.234.567" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsSpec" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest.wordsToNumbers should return 745 if amount is seven hundred forty five" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest.wordsToNumbers should return 1.234.567 if amount is one million two hundred thirty four thousand five hundred sixty seven" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.BowlingGameScenarioTest" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.BowlingGameUnitTest" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.BankOcrUnitTest" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsSpec" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest.wordsToNumbers should return 1.234.567 if amount is one million two hundred thirty four thousand five hundred sixty seven" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest.wordsToNumbers should return 745 if amount is seven hundred forty five" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.NumbersInWordsUnitTest.numbersToWords should return one million two hundred thirty four thousand five hundred sixty seven if amount is 1.234.567" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1341,23 +1333,23 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3147139" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39638555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39509538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27792916" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32697546" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32561308" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32425067" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27792916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27520436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1433,11 +1425,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar!/org/scalatest/GivenWhenThen.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="370" selection-end="370" vertical-scroll-proportion="0.2825485" vertical-offset="0" max-vertical-offset="391" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar!/org/scalatest/words/ShouldVerb.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="45" selection-start="333" selection-end="333" vertical-scroll-proportion="0.29310346" vertical-offset="0" max-vertical-offset="348" />
@@ -1456,16 +1443,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar!/scala/Array.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="11" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.35632184" vertical-offset="233" max-vertical-offset="986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/Lesson10Files.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/Lesson10FilesLines.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar!/scala/math/package.class">
@@ -1568,18 +1545,6 @@
         <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="37" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.3469388" vertical-offset="578" max-vertical-offset="1581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.13178295" vertical-offset="0" max-vertical-offset="387" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson02ControlStructuresTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="135" selection-start="749" selection-end="749" vertical-scroll-proportion="0.3324397" vertical-offset="267" max-vertical-offset="2788" />
@@ -1615,105 +1580,120 @@
         <state line="9" column="34" selection-start="341" selection-end="352" vertical-scroll-proportion="0.28228784" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2720" column="18" selection-start="108767" selection-end="108767" vertical-scroll-proportion="0.33273703" vertical-offset="45493" max-vertical-offset="52292" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/BerlinClock.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="52" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.92132866" vertical-offset="0" max-vertical-offset="1751" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/BankOcrUnitTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="16" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.0" vertical-offset="2664" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/kata/solutions/MarsRoverTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="125" selection-end="156" vertical-scroll-proportion="0.18640351" vertical-offset="0" max-vertical-offset="1428">
-          <folding />
-        </state>
+        <state line="5" column="8" selection-start="125" selection-end="156" vertical-scroll-proportion="0.18640351" vertical-offset="0" max-vertical-offset="1428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/BankOcr.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="15" selection-start="1141" selection-end="1141" vertical-scroll-proportion="1.1929824" vertical-offset="0" max-vertical-offset="1411">
-          <folding />
-        </state>
+        <state line="32" column="15" selection-start="1141" selection-end="1141" vertical-scroll-proportion="1.1929824" vertical-offset="0" max-vertical-offset="1411" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/BerlinClock.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="37" selection-start="173" selection-end="174" vertical-scroll-proportion="0.18640351" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="5" column="37" selection-start="173" selection-end="174" vertical-scroll-proportion="0.18640351" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/FizzBuzz.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.071278825" vertical-offset="0" max-vertical-offset="477">
-          <folding />
-        </state>
+        <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.071278825" vertical-offset="0" max-vertical-offset="477" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/MarsRover.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="6" selection-start="1833" selection-end="1833" vertical-scroll-proportion="1.9245284" vertical-offset="0" max-vertical-offset="1462">
-          <folding />
-        </state>
+        <state line="54" column="6" selection-start="1833" selection-end="1833" vertical-scroll-proportion="1.9245284" vertical-offset="0" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/Permutations.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="53" selection-start="139" selection-end="146" vertical-scroll-proportion="0.10691824" vertical-offset="0" max-vertical-offset="477">
-          <folding />
-        </state>
+        <state line="3" column="53" selection-start="139" selection-end="146" vertical-scroll-proportion="0.10691824" vertical-offset="0" max-vertical-offset="477" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/PrimeFactors.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="197" selection-end="197" vertical-scroll-proportion="0.17819707" vertical-offset="0" max-vertical-offset="477">
-          <folding />
-        </state>
+        <state line="5" column="36" selection-start="197" selection-end="197" vertical-scroll-proportion="0.17819707" vertical-offset="0" max-vertical-offset="477" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/WordWrap.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.071278825" vertical-offset="0" max-vertical-offset="477">
-          <folding />
-        </state>
+        <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.071278825" vertical-offset="0" max-vertical-offset="477" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/wordpress/technologyconversations/learning/kata/solutions/TennisGame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="17" column="6" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/wordpress/technologyconversations/learning/solutions/Lesson04ArraysTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="316" column="6" selection-start="7765" selection-end="7765" vertical-scroll-proportion="0.7106383" vertical-offset="5021" max-vertical-offset="5491">
+        <state line="316" column="6" selection-start="7765" selection-end="7765" vertical-scroll-proportion="0.7106383" vertical-offset="5021" max-vertical-offset="5491" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="1" selection-start="316" selection-end="1367" vertical-scroll-proportion="0.93380284" vertical-offset="85" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="599" selection-end="599" vertical-scroll-proportion="0.3230994" vertical-offset="0" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar!/scala/Predef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="363" selection-end="363" vertical-scroll-proportion="0.20298508" vertical-offset="0" max-vertical-offset="3570">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="16" selection-start="5810" selection-end="5810" vertical-scroll-proportion="0.0" vertical-offset="3355" max-vertical-offset="4063">
-          <folding>
-            <element signature="e#61#130#0" expanded="true" />
-          </folding>
+        <state line="3" column="59" selection-start="190" selection-end="190" vertical-scroll-proportion="0.108742006" vertical-offset="0" max-vertical-offset="4063">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/BowlingGame.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/BankOcrUnitTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="1" selection-start="316" selection-end="1367" vertical-scroll-proportion="1.3154762" vertical-offset="85" max-vertical-offset="850">
+        <state line="12" column="10" selection-start="425" selection-end="425" vertical-scroll-proportion="0.30237153" vertical-offset="51" max-vertical-offset="3468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2353" column="20" selection-start="93245" selection-end="93245" vertical-scroll-proportion="0.3326572" vertical-offset="39276" max-vertical-offset="52292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/technologyconversations/learning/kata/solutions/NumbersInWordsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="3" selection-start="4948" selection-end="4948" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="3757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="85" selection-end="85" vertical-scroll-proportion="0.23517786" vertical-offset="0" max-vertical-offset="506">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/technologyconversations/learning/kata/solutions/NumbersInWords.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="24" selection-start="2277" selection-end="2277" vertical-scroll-proportion="0.16798419" vertical-offset="867" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
