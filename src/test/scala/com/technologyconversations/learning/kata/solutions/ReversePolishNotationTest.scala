@@ -17,7 +17,7 @@ Taken from http://en.wikipedia.org/wiki/Reverse_Polish_notation.
  */
 class ReversePolishNotationTest extends FlatSpec with Matchers {
 
-  "calculateFunction" should "return stack with 2 elements popped and one element pushed" in {
+  "calcSign" should "return stack with 2 elements popped and one element pushed" in {
     calcSign(List[Double](1, 2, 3, 4, 5), _ / _) should have size 4
   }
 
@@ -25,7 +25,7 @@ class ReversePolishNotationTest extends FlatSpec with Matchers {
     calcSign(List[Double](1, 2, 3, 15, 3), _ / _).last should equal(5)
   }
 
-  "calculate" should "be able to calculate single digit numbers" in {
+  "calc" should "be able to calculate single digit numbers" in {
     "1 2 +".calc should equal(3)
   }
 
