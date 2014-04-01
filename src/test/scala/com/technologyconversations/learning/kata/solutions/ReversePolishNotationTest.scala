@@ -21,7 +21,7 @@ class ReversePolishNotationTest extends FlatSpec with Matchers {
     calcSign(List[Double](1, 2, 3, 4, 5), _ / _) should have size 4
   }
 
-  it should "be use function parameter to calculate value that is pushed" in {
+  it should "use operation function to calculate value that is pushed" in {
     calcSign(List[Double](1, 2, 3, 15, 3), _ / _).last should equal(5)
   }
 
